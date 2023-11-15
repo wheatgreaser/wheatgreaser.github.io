@@ -1,2 +1,3 @@
-# wheatgreaser.github.io
-its wheating time
+# wheatgreaser
+list of projects I'm currently workin on:
+1. learning deep learning - i'm learning deep learning  
