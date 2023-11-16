@@ -1,4 +1,4 @@
-## chronicles of learning deeplearning (i'm chronicling so hard rn):  
+# chronicles of learning deeplearning (i'm chronicling so hard rn):  
 
 i wanted to learn deep learning so that i could become a multi ultra mega zillion bajillionaire. no, really.  
 i learnt from the fundamentals(as one does). first principles are really important. i think. but i dont want to get swamped in the intricacies. i also want to learn the fun stuff.  
@@ -13,7 +13,7 @@ here's the deal. deep learning is huge. i'm small (by which i mean im a beginner
 also. as i previously mentioned im a newbie. a noob if you will. so dont take my word for it, most of the topics that ive rambled about are the way that i understand them. so yes.
 ive listed the chapters in the order that i learnt them.
 
-### 1.backprop:
+## 1.backprop:
 this is where i started. (ofc after learning about the general overview idiot, (the training data, testing data split, the input layer, hiden layer, loss function, basics(theory) of grad descent, activation functions ,etc).
 so i watched andrej karpathy's vid (about halfway(ok slightly more than half)) where he remade micrograd. backprop is basically the chain rule from differentiation. how does the loss function change with respect to the weights and biases of nodes of the previous layer and layer before that going up till the input layer. he explained this using expression graphs. which was nice. basically if two things are being multiplied taking the derivative of something wrt to one gives the other (for example: if c is the output and a * b = c then dc/da = b and dc/db = a. in the context of a neuron, weight * data = value, and d(value)/ d(weight) = data.). and during addition the derivative basically gets split into two(for example: c = a + b, dc/da = 1 and dc/b = 1, so during chain rule the derivative just splits into two and goes to a and b (what i mean is e= c* d, c= a + b, de/dc = d and de/da = (de/dc) * (dc/da), dc/da = 1 so de/da = d, similarly de/db = d (splitting!!))).
 
@@ -28,4 +28,7 @@ basically a convolutional layer extracts the features and you 'downgrade' the im
 
 the way i like to understand feature extraction (it doesnt technically happen but what i like to think happens) is basically you extracts fearures like eyes, nose and the n you extract even general fearures till you have a face. (feature from a feature??) 
 
-shit i wanna do: cnn from scratch, experiment with the different architectures(lenet, alexnet, resnet, etc)
+shit i wanna do: cnn from scratch, experiment with the different architectures(lenet, alexnet, resnet, etc).
+
+## 3.recursyvursy  
+heres where things get gipptic(gpt). i dont like how chat gippity gets so attention. nlp is the future. i mean turing himself proposed imitation game to be the test for sentience which involves nlp. 
