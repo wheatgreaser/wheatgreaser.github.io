@@ -27,3 +27,5 @@ convynettys are simple. theyre just feature extractors, hey what distinguishing 
 basically a convolutional layer extracts the features and you 'downgrade' the image using pooling (maxpool, avgpool i dont care) then do it again and again till youre satisfied then flatten it and pass it into a traditional neural net badabing badaboom you just trained a convnet model.
 
 the way i like to understand feature extraction (it doesnt technically happen but what i like to think happens) is basically you extracts fearures like eyes, nose and the n you extract even general fearures till you have a face. (feature from a feature??) 
+
+shit i wanna do: cnn from scratch, experiment with the different architectures(lenet, alexnet, resnet, etc)
