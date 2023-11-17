@@ -14,7 +14,8 @@ also. as i previously mentioned im a newbie. a noob if you will. so dont take my
 ive listed the chapters in the order that i learnt them.
 
 ## 1.backprop:
-this is where i started. (ofc after learning about the general overview idiot, (the training data, testing data split, the input layer, hiden layer, loss function, basics(theory) of grad descent, activation functions ,etc).
+this is where i started. (ofc after learning about the general overview idiot, (the training data, testing data split, the input layer, hiden layer, loss function, basics(theory) of grad descent, activation functions ,etc).  
+
 so i watched andrej karpathy's vid (about halfway(ok slightly more than half)) where he remade micrograd. backprop is basically the chain rule from differentiation. how does the loss function change with respect to the weights and biases of nodes of the previous layer and layer before that going up till the input layer. he explained this using expression graphs. which was nice. basically if two things are being multiplied taking the derivative of something wrt to one gives the other (for example: if c is the output and a * b = c then dc/da = b and dc/db = a. in the context of a neuron, weight * data = value, and d(value)/ d(weight) = data.). and during addition the derivative basically gets split into two(for example: c = a + b, dc/da = 1 and dc/b = 1, so during chain rule the derivative just splits into two and goes to a and b (what i mean is e= c* d, c= a + b, de/dc = d and de/da = (de/dc) * (dc/da), dc/da = 1 so de/da = d, similarly de/db = d (splitting!!))).
 
 so i manually computed the chain rule for an expression graph and then for a neuron. this gave me a bit of insight. this is also where i stopped. i could have recursivle programmed it to execute the chain rule. but i stopped here.
@@ -31,4 +32,8 @@ the way i like to understand feature extraction (it doesnt technically happen bu
 shit i wanna do: cnn from scratch, experiment with the different architectures(lenet, alexnet, resnet, etc).
 
 ## 3.recursyvursy  
-heres where things get gipptic(gpt). i dont like how chat gippity gets so attention. nlp is the future. i mean turing himself proposed imitation game to be the test for sentience which involves nlp. 
+heres where things get gipptic(gpt). i dont like how chat gippity gets so attention. nlp is the future. i mean turing himself proposed imitation game to be the test for sentience which involves nlp.  
+
+rnns are easy enough. q: how do you deal with inputs of variable size, a: rnn, dipshit. basically a neuron connected to itself with a weighted a connection. you can temporally modify the weight after each new inout. the stock market example is really good.
+
+imagine i want to predict the price of the stock tomorrow and i have access to today's and yesterday's record. now i take yesterday's data and then make a predoction now i take today's data and pass it into the neuron as a new input i take the output of the prevoous step and multiply it with a weight and pass it into the neuron and get a prediction for today. then repeat it to get the prediction for tomorrow. easy. we use Back Propogation Through Time to do the weight modification. wow. 
