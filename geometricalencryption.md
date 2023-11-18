@@ -1,4 +1,4 @@
-# geometric encryption can beat quantum 
+# geometric encryption can beat quantum computers???
 
 #### 18/11/23:  
 
