@@ -1,6 +1,4 @@
-# geometric encryption can beat quantum compys????
-
-kidding, maybe.
+# geometric encryption can beat quantum 
 
 #### 18/11/23:  
 
