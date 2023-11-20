@@ -1,7 +1,9 @@
 i just rant here  
 
 list of projects I'm currently workin on:
-1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)  
+1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
+2. [billion dollar song finder app - song finder using ml](dancychecky.md)
+   
 
 
 backburner:  
