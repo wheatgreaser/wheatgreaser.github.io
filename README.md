@@ -5,4 +5,4 @@ list of projects I'm currently workin on:
 
 
 backburner:  
-1. [geometric encryption - too pipey to call a pipe dream](geometricalencryption.md)
+1. [geometric encryption - a billionaire, genius, playboy, philanthropist ass idea](geometricalencryption.md)
