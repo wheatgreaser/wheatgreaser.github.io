@@ -1,4 +1,4 @@
-# why dont people build theur own virtual cpus( are they stupid)
+# why dont people build their own virtual cpus( are they stupid)
 
 there are a few things that are over your skill level. you should always try then to improve your skills to that level, like beating a 1200 elo player in chess while youre still in 1000 elo. there are other things that are way over your skill level that you shouldnt even try; things that you cannot comprehend, like a 4 foot 1 middles school dweeb taking on lebron james. i am the metaphorical 4 foot 1 kid.(i have severe problem)
 
