@@ -2,6 +2,7 @@ i just rant here
 
 list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
+2. [virtual cpu - because fuck you](virtualcpu.md)
    
 done?? (wow im impressed, this is one smart cookie):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) 
