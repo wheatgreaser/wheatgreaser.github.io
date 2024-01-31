@@ -20,4 +20,7 @@ i have faith that they will cover it later in [this video](https://www.youtube.c
 THE CRUD IS COMPLETE. i actually did the UD part. the turing award is mine. the next part involves databases. im excited but i want to actually process, the stuff i learnt, so
 im going on a side quest. new side project: library api. yes. you can add books and retrieve books (CR come on i dont wanna do the whole thing again, im not a masochist). if i do this side project i'll actually be
 able to use what i learnt: schema, path parameters and exception handling. 
+ok here's the repo for the [library api](https://github.com/wheatgreaser/library_api). 
+i wanna build this api up (in the future) wiht frontend stuff(plain js and html). i also found out how frontend is integrated, we use something called FETCH api for javascript with that we can make
+http requests. for making asynchronous requests (i'll find out what that means later) there issomething called ajax.
 
