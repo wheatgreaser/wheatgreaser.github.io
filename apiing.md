@@ -22,5 +22,5 @@ im going on a side quest. new side project: library api. yes. you can add books 
 able to use what i learnt: schema, path parameters and exception handling. 
 ok here's the repo for the [library api](https://github.com/wheatgreaser/library_api). 
 i wanna build this api up (in the future) wiht frontend stuff(plain js and html). i also found out how frontend is integrated, we use something called FETCH api for javascript with that we can make
-http requests. for making asynchronous requests (i'll find out what that means later) there issomething called ajax.
+http requests. for making asynchronous requests (i'll find out what that means later) there is something called ajax. so yeah i wanna integrate frontend too. i want to make an actual completed website using apis and databases. it'll be great. 
 
