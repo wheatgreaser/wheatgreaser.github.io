@@ -24,3 +24,6 @@ ok here's the repo for the [library api](https://github.com/wheatgreaser/library
 i wanna build this api up (in the future) wiht frontend stuff(plain js and html). i also found out how frontend is integrated, we use something called FETCH api for javascript with that we can make
 http requests. for making asynchronous requests (i'll find out what that means later) there is something called ajax. so yeah i wanna integrate frontend too. i want to make an actual completed website using apis and databases. it'll be great. 
 
+## 1 february, 2024:
+potgressqling begins. so i have a plan. im going to follow [this video](https://www.youtube.com/watch?v=0sOvCWFmrtA&t) till the 5 and half hour mark (till the end of ORMs), then im gonna work on my project.
+then ill return to it later if im interested. 
