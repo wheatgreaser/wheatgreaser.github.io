@@ -33,4 +33,4 @@ postgress. it was easy. BUT I FUCKIGN FORGOT MY PASSWORD IN THE BEGINNING. i was
 the parts after that, i dont think it will be useful for me as i stand right now, they cover deplyoment and migration WHICH IS SUPER IMPORTANT but not my primary focus right now. 
 
 ## 5th february, 2024:
-I DID CR (CREATING AND READING) OPERATIONS WITH PYTHON AND DID SQL AND ADDED SOMETHING TO THE DATABASE. BRO. I AM THE FUCKING BEST. IT ACTUALLY GOT ADDED?! WHAT THE FUCK. i am using raw sql using the psycogpg2 module. IF I JUST COMPLETE THE UD PART, CRUD IN PYTHON. this is so cool.
+I DID CR (CREATING AND READING) OPERATIONS WITH PYTHON AND DID SQL AND ADDED SOMETHING TO THE DATABASE. BRO. I AM THE FUCKING BEST. IT ACTUALLY GOT ADDED?! WHAT THE FUCK. i am using raw sql using the psycogpg2 module. IF I JUST COMPLETE THE UD PART, CRUD IN PYTHON. this is so cool.![databased](/images/imagesforapipage/image.png)
