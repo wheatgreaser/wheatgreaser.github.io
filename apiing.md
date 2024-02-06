@@ -1,5 +1,6 @@
 # Its aping time
 i love to api. fcourse i know what apis are. 
+the final project is [here](https://github.com/wheatgreaser/library_api).
 
 ## 28 januray, 2024:
 i just got the virtual enivironments all setup. i got all the packages(package haha) installed. lets fucking do this. 
@@ -34,3 +35,6 @@ the parts after that, i dont think it will be useful for me as i stand right now
 
 ## 5th february, 2024:
 I DID CR (CREATING AND READING) OPERATIONS WITH PYTHON AND DID SQL AND ADDED SOMETHING TO THE DATABASE. BRO. I AM THE FUCKING BEST. IT ACTUALLY GOT ADDED?! WHAT THE FUCK. i am using raw sql using the psycogpg2 module. IF I JUST COMPLETE THE UD PART, CRUD IN PYTHON. this is so cool.![databased](/images/imagesforapipage/image.png)
+
+## 6th february, 2024:
+CRUDing is done. I FINISHED IT. you can look it up [here](https://github.com/wheatgreaser/library_api). so i plan to return to this again, but i know how to build a basic api and connect a database to it and shit like that , so im going to build a project. yes. 
