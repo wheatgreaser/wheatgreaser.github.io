@@ -4,7 +4,7 @@ list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
 2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md)
 
-yoctoprojects(smol tiny projects, mostly for reinforcing what i learnt, sometimes for goofing around):
+yoctoprojects (smol tiny projects):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md)
    
 done?? (genius projects):
