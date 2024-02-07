@@ -13,3 +13,5 @@ done?? (genius projects):
 backburner:  
 1. [geometric encryption - a billionaire, genius, playboy, philanthropist ass idea](geometricalencryption.md)
 2. [virtual cpu - because fuck you](virtualcpu.md)
+
+[physics](physics.md): i love it when physics just physicses.
