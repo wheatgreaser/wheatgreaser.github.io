@@ -2,11 +2,13 @@ i just rant here
 
 list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
+2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md)
 
+yoctoprojects(smol tiny projects, mostly for reinforcing what i learnt, sometimes for goofing around):
+1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md)
    
 done?? (genius projects):
-1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md)
-2. [aping - its api-ing time?(sup apiers)](apiing.md)
+1. [aping - its api-ing time?(sup apiers)](apiing.md)
 
 backburner:  
 1. [geometric encryption - a billionaire, genius, playboy, philanthropist ass idea](geometricalencryption.md)
