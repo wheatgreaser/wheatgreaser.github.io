@@ -4,4 +4,4 @@ the list of topics given below are topics that i am actively learning or have le
 ok. now that we have that out of the way.
 
 ## topics:
-1. [quantum mechanics (yes really)](quantum_mechanics.md)
+1. [quantum mechanics (yes really)](physics_stuff/quantum_mechanics/quantum_mechanics.md)
