@@ -1,5 +1,8 @@
 i just rant here  
-list of all [reposistoriesijasd](https://github.com/wheatgreaser) if you make fun of my code ill track you down and eat your little toe. 
+
+list of all [reposistoriesijasd](https://github.com/wheatgreaser) 
+
+if you make fun of my code ill track you down and eat your little toe. 
 
 list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
