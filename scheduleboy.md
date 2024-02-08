@@ -19,7 +19,9 @@ to this
 ![image](/images/imagesforscheduleboy/2.png) 
 
 than it took me to program the 
-entire backend and the fetch javascript(to be fair the js also took quite a bit of time). this is fucking insane.  
+entire backend. this is fucking nuts.  
+
+### later - same day:
 holy shit i did it.
 holy fucking shittity fuck. bro. this is so fucking insane. I GOT IT TO WORK. I SPENT AN HOUR DEBUGGING A DAMN BUTTON THIS FUCKING BUTTON WOULDNT ACTIVATE THE FUCKING EVENT LISTENER BUT WHEN I PUT THE SCRIPT IN
 THE INDEX FILE IT WOULD. I FUCKING DONT KNOW. I AM NOT A PROFESSIONAL JAVASCRIPT DEVELOPER (or really a professional any developer for that matter). BUT FINALLY IT WORKED. ITS SO SEAMLESS THOUGH. like i http get
