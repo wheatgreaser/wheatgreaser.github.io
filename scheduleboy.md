@@ -1,6 +1,6 @@
 # scheduleboy - for professional workaholics
-if you want to become the next jeffrey geezos you need to put in the work. put in the hours. but if you put in a lot of work, 13 - 16 hours for example you end up wasting a lot of time due to poor planning. unacceptable. prepostrous.
-some might even call it ludicrous. i agree with this "some" person. so i made this ""FuLl - sTaCk" application to solve it. irecently learnt FastAPI so i want to put my skills to the test.
+if you want to become the next jeffrey geezos you need to put in the work. put in the hours. but if you put in a lot of work, 13 - 16 hours for example you end up wasting a lot of time due to poor planning. unacceptable. prepostrous. so to study for longer durations of time i invented the next big thing.
+i made this ""FuLl - sTaCk" application to solve it. i recently learnt FastAPI so i want to put my skills to the test.
 
 ## 7th of februruaaury (i really cant spell february):
 i completed the fastapi, postgres, sql(very very very small amount of sqp, but if you list a lot of things people think youre a wizard so deal with it sucker) and the js for fetching the data from the api. the fastapi and database took me 20 mins. WHAT THE FUCK.
@@ -20,3 +20,9 @@ to this
 
 than it took me to program the 
 entire backend and the fetch javascript(to be fair the js also took quite a bit of time). this is fucking insane.  
+holy shit i did it.
+holy fucking shittity fuck. bro. this is so fucking insane. I GOT IT TO WORK. I SPENT AN HOUR DEBUGGING A DAMN BUTTON THIS FUCKING BUTTON WOULDNT ACTIVATE THE FUCKING EVENT LISTENER BUT WHEN I PUT THE SCRIPT IN
+THE INDEX FILE IT WOULD. I FUCKING DONT KNOW. I AM NOT A PROFESSIONAL JAVASCRIPT DEVELOPER (or really a professional any developer for that matter). BUT FINALLY IT WORKED. ITS SO SEAMLESS THOUGH. like i http get
+request the output and limit it to 5 and there are 5 tags to place the output, since i order it by id descending only the latest 5 will be present at any given time. so if i add a task and there are already 5 tasks, the top task would get replaced. ITS SO COOL, OMFG.
+heres the final result:
+![image](/images/imagesforscheduleboy/3.png)
