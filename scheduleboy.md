@@ -25,4 +25,7 @@ holy fucking shittity fuck. bro. this is so fucking insane. I GOT IT TO WORK. I 
 THE INDEX FILE IT WOULD. I FUCKING DONT KNOW. I AM NOT A PROFESSIONAL JAVASCRIPT DEVELOPER (or really a professional any developer for that matter). BUT FINALLY IT WORKED. ITS SO SEAMLESS THOUGH. like i http get
 request the output and limit it to 5 and there are 5 tags to place the output, since i order it by id descending only the latest 5 will be present at any given time. so if i add a task and there are already 5 tasks, the top task would get replaced. ITS SO COOL, OMFG.
 heres the final result:
+
 ![image](/images/imagesforscheduleboy/3.png)
+
+im actually super stoked UHASDKJH. im going to become zuccy. smell ya later shiteaters (that rhymed in my head).
