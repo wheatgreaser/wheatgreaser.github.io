@@ -11,5 +11,5 @@ now im going to loop through the task oject and display individual tasks(time al
 if size of the task object is reached. now once a task is completed i should be able to delete it. simple enough. i want to make it look pretty. so probably css. and call it a day. thats how we do things at google.
 
 ## 8th feb (heh):
-i hate css. what hte fuck is this thing. i hate frontend. it took me more time to go from this [images/imagesforscheduleboy/1.png] to this [images/imagesforscheduleboy/2.png] than it took me to program the 
+i hate css. what hte fuck is this thing. i hate frontend. it took me more time to go from this [torture](images/imagesforscheduleboy/1.png) to this [torture](images/imagesforscheduleboy/2.png) than it took me to program the 
 entire backend and the fetch javascript(to be fair the js also took quite a bit of time). this is fucking insane.  
