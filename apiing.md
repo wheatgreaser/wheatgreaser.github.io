@@ -47,3 +47,6 @@ this is such a poggies moment.
 
 lads and gentlewomen, there is a problem. i cant follow the tutorial anymore. they use ORMs :(  
 so im going to follow the docs. fortunately the docs are pretty good. 
+
+JESUS FUCKING CHRIST. WHAT THE FUCK? WHY IS SECURITY SO CONVOLUTED OMFG IM DYING. wafnjadsnflsndfg. i dont like this, im just going to follow the tutorial. hashing rehashing jwt token esdbf kjsb i dont know
+its so fucking fasldnfljnsdfkn. ok. pivoting. i'm going to pivot. im going to learn orm, and just follow the fucking tutorial. 
