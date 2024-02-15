@@ -42,11 +42,5 @@ CRUDing is done. I FINISHED IT. you can look it up [here](https://github.com/whe
 
 ## 15th february, 2024:
 we're sooo back. whats good my rizzlers. ok i made the pico-project. its a scheduling app(not a todo list fuck off), i wrote about it [here](scheduleboy.md). 
-ok heres the plan. im going to skip the ORM part, im going to stick to raw sql. im going to do the autherntication, JWT tokens, routers, tokens shit. after that im going to do a second project.
-this is such a poggies moment.
-
-lads and gentlewomen, there is a problem. i cant follow the tutorial anymore. they use ORMs :(  
-so im going to follow the docs. fortunately the docs are pretty good. 
-
-JESUS FUCKING CHRIST. WHAT THE FUCK? WHY IS SECURITY SO CONVOLUTED OMFG IM DYING. wafnjadsnflsndfg. i dont like this, im just going to follow the tutorial. hashing rehashing jwt token esdbf kjsb i dont know
-its so fucking fasldnfljnsdfkn. ok. pivoting. i'm going to pivot. im going to learn orm, and just follow the fucking tutorial. 
+ORMs. it took me so long to set it up. it took me so fuckjing long because the default port was 5432 but i set postgres to 5433 because the liveserver in vscode uses 5432 which i had used to make 
+shcedule boy and now its fixed. there is so much shit you have to do, but its just standard ctrl c ctrl v stuff, just like basic setup shit, like connecting to the database, open a session for each request, close the session after each request, import all these fucking libraries. AFTER DOING ALL OF THAT i created a seperate file for having the models, to create the table. this tutorial is very helpful tho. i wish the guy just stuck to rawsql but its alrgith. i wanna know both. thats how we do things in google.
