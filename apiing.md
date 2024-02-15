@@ -1,7 +1,7 @@
 # Its aping time
 im going to api it out. if youve been in the valley(i've never been to silicon valley) for as long as i have you have to learn apis its jsut the rules, its in the fuckjing constitution.  
-so im going to learns apis.  
-ceo of google moment.
+so im going to learn to api.  
+ceo of google moment (im skillmaxxing, based and faangpilled).
 
 ## 28 januray, 2024:
 i just got the virtual enivironments all setup. i got all the packages(package haha) installed. lets fucking do this. 
