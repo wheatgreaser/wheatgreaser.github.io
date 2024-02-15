@@ -1,6 +1,7 @@
 # Its aping time
-i love to api. fcourse i know what apis are. 
-the final project is [here](https://github.com/wheatgreaser/library_api).
+im going to api it out. if youve been in the valley(i've never been to silicon valley) for as long as i have you have to learn apis its jsut the rules, its in the fuckjing constitution.  
+so im going to learns apis. 
+ceo of google moment.
 
 ## 28 januray, 2024:
 i just got the virtual enivironments all setup. i got all the packages(package haha) installed. lets fucking do this. 
