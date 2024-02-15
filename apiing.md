@@ -43,4 +43,7 @@ CRUDing is done. I FINISHED IT. you can look it up [here](https://github.com/whe
 ## 15th february, 2024:
 we're sooo back. whats good my rizzlers. ok i made the pico-project. its a scheduling app(not a todo list fuck off), i wrote about it [here](scheduleboy.md). 
 ok heres the plan. im going to skip the ORM part, im going to stick to raw sql. im going to do the autherntication, JWT tokens, routers, tokens shit. after that im going to do a second project.
-this is such a poggies moment. 
+this is such a poggies moment.
+
+lads and gentlewomen, there is a problem. i cant follow the tutorial anymore. they use ORMs :(  
+so im going to follow the docs. fortunately the docs are pretty good. 
