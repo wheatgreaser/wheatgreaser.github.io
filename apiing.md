@@ -38,3 +38,6 @@ I DID CR (CREATING AND READING) OPERATIONS WITH PYTHON AND DID SQL AND ADDED SOM
 
 ## 6th february, 2024:
 CRUDing is done. I FINISHED IT. you can look it up [here](https://github.com/wheatgreaser/library_api). so i plan to return to this again, but i know how to build a basic api and connect a database to it and shit like that , so im going to build a project. yes. 
+
+## 15th february, 2024:
+we're sooo back. whats good my rizzlers. ok i made the pico-project. its a scheduling app(not a todo list fuck off), i wrote about it [here]()
