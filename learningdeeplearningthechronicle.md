@@ -34,7 +34,11 @@ shit i wanna do: cnn from scratch, experiment with the different architectures(l
 ## 3.recursyvursy  
 heres where things get gipptic(gpt). i dont like how chat gippity gets so attention. nlp is the future. i mean turing himself proposed imitation game to be the test for sentience which involves nlp.  
 
-rnns are easy enough. q: how do you deal with inputs of variable size, a: rnn, dipshit. basically a neuron connected to itself with a weighted a connection. you can temporally modify the weight after each new inout. the stock market example is really good.
+rnns are easy enough.
+q: how do you deal with inputs of variable size  
+a: rnn, dipshit. 
+(real conversation that i had last week at the nasa headquarters)
+basically a neuron connected to itself with a weighted a connection. you can temporally modify the weight after each new inout. the stock market example is really good.
 
 imagine i want to predict the price of the stock tomorrow and i have access to today's and yesterday's record. now i take yesterday's data and then make a predoction now i take today's data and pass it into the neuron as a new input i take the output of the prevoous step and multiply it with a weight and pass it into the neuron and get a prediction for today. then repeat it to get the prediction for tomorrow. easy. we use Back Propogation Through Time to do the weight modification. wow. 
 
