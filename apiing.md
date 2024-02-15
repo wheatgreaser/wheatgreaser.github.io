@@ -40,4 +40,6 @@ I DID CR (CREATING AND READING) OPERATIONS WITH PYTHON AND DID SQL AND ADDED SOM
 CRUDing is done. I FINISHED IT. you can look it up [here](https://github.com/wheatgreaser/library_api). so i plan to return to this again, but i know how to build a basic api and connect a database to it and shit like that , so im going to build a project. yes. 
 
 ## 15th february, 2024:
-we're sooo back. whats good my rizzlers. ok i made the pico-project. its a scheduling app(not a todo list fuck off), i wrote about it [here](scheduleboy.md)
+we're sooo back. whats good my rizzlers. ok i made the pico-project. its a scheduling app(not a todo list fuck off), i wrote about it [here](scheduleboy.md). 
+ok heres the plan. im going to skip the ORM part, im going to stick to raw sql. im going to do the autherntication, JWT tokens, routers, tokens shit. after that im going to do a second project.
+this is such a poggies moment. 
