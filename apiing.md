@@ -61,4 +61,8 @@ ok the password part is over. hashing baby. its a one way street. in the tutoria
 
 ![arkhamalsume](/images/imagesforapipage/3.jpg)
 
-so now that the password part is over. we've come to the part ive waited so long for. loading a user specific profile page. this is so fucking cool. but before that we have to do routing. routing asnn dffns . PLEASE I JUZT WANT TO AUTHORIZRE USERSD DSLJND SJND S I DONT CARE IF MY CODE IS CLUTTEREDSF KNSD. ok. ill do routing. thats what we do in big tech comapnies. we route shit. you know? thaats what i did in amazon. 
+so now that the password part is over. we've come to the part ive waited so long for. loading a user specific profile page. this is so fucking cool. but before that we have to do routing. routing asnn dffns . PLEASE I JUZT WANT TO AUTHORIZRE USERSD DSLJND SJND S I DONT CARE IF MY CODE IS CLUTTEREDSF KNSD. ok. ill do routing. thats what we do in big tech comapnies. we route shit. you know? thaats what i did in amazon. ok. the router part is over. to be fair. it was worth it. my api looks so clean now. LOOK AT THE FUCKING DOCUMENTATION (its so pristine):
+
+![hehehehaw](/images/imagesforapipage/4.png)
+
+ok. FINALLY. I REACHED THE JWT PART. LETS FUCKING GO. FINALNDJNSDJN, SHITTING AND PISSING RIGHT NOW.
