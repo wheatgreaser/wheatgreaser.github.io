@@ -65,4 +65,7 @@ so now that the password part is over. we've come to the part ive waited so long
 
 ![hehehehaw](/images/imagesforapipage/4.png)
 
-ok. FINALLY. I REACHED THE JWT PART. LETS FUCKING GO. FINALNDJNSDJN, SHITTING AND PISSING RIGHT NOW.
+ok. FINALLY. I REACHED THE JWT PART. LETS FUCKING GO. FINALNDJNSDJN, SHITTING AND PISSING RIGHT NOW.  
+
+wow this guy made jwts super simple. i thought it was going to be some advanced cryptographyt shit, but it was actually super simple. basically the the user logins in by sending in the email/username and the password and then we hash the given password and compare it with the stored password, if it matches we give him a token. this token basically has three parts: a header, payload and a signature. the header just has information about the algorithm used. the payload is going to have the email, role(normal user or admin/staff), id, etc. the signature is formed by combining the header, payload and a 256 bit sectret (no one except us will know the secret). now we send the token to the user.the user can access his posts/settings/his page that is only supposed to be visible only to him by providing the token in the header of the request. badabing bada boom login complete. the jwt token is accessible to the user, so what if he were to change the id to access someother users account, aha thats waht the signature prevents, if you change the payload the signature will change and the api will reject your request since your token is invalid now that youve changed it.
+
