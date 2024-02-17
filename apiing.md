@@ -55,4 +55,10 @@ the main source of my fucjing confusion was the two models, the pydantic model a
 raw sql is much better. BUT NOW FINALLY. i can get into user authentication and user authorization. THIS IS WHAT IVE BEEN FUCKING WAITING AGES FOR.
 
 ## 17th february, 2024:
-pydanitc is the only thing that is keeping me sane. god bless pydantic. it validates the the input AND the output(respone). what the hell? what an amazing module. i also finally figured out what some of the "black box" stuff was. depends is apparently a dependency injection (i dont know what it means but it sounds very smart). i like python unpacking operator. its nice. automatically unpacks the dict for you. intially i hated how it looked (weird asterix looking mf) but it is useful. i dont have to go like models.PostData(posttitle = post.title, postcontent = post.contnent, ...) isntead i can just do models.PostData(**post.dict()) yeah. ima a progamer.
+pydanitc is the only thing that is keeping me sane. god bless pydantic. it validates the the input AND the output(respone). what the hell? what an amazing module. i also finally figured out what some of the "black box" stuff was. depends is apparently a dependency injection (i dont know what it means but it sounds very smart). i like python unpacking operator. its nice. automatically unpacks the dict for you. intially i hated how it looked (weird asterix looking mf) but it is useful. i dont have to go like models.PostData(posttitle = post.title, postcontent = post.contnent, ...) isntead i can just do models.PostData(**post.dict()) yeah. ima a progamer.  
+
+ok the password part is over. hashing baby. its a one way street. in the tutorial they use bcrypt algorithm, so i used the same thing. blowfish. what a goofy little goober. fucking blowfish is protecting your account data in case of a database leak. thank him/her.  
+
+![arkhamalsume](/images/imagesforapipage/3.png)
+
+so now that the password part is over. we've come to the part ive waited so long for. loading a user specific profile page. this is so fucking cool.  
