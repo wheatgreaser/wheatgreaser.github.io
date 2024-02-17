@@ -53,3 +53,6 @@ the main source of my fucjing confusion was the two models, the pydantic model a
 ![alsume](/images/imagesforapipage/2.png)
 
 raw sql is much better. BUT NOW FINALLY. i can get into user authentication and user authorization. THIS IS WHAT IVE BEEN FUCKING WAITING AGES FOR.
+
+## 17th february, 2024:
+pydanitc is the only thing that is keeping me sane. god bless pydantic. it validates the the input AND the output(respone). what the hell? what an amazing module. i also finally figured out what some of the "black box" stuff was. depends is apparently a dependency injection (i dont know what it means but it sounds very smart). i like python unpacking operator. its nice. automatically unpacks the dict for you. intially i hated how it looked (weird asterix looking mf) but it is useful. i dont have to go like models.PostData(posttitle = post.title, postcontent = post.contnent, ...) isntead i can just do models.PostData(**post.dict()) yeah. ima a progamer.
