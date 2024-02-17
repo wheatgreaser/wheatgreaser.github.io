@@ -59,6 +59,6 @@ pydanitc is the only thing that is keeping me sane. god bless pydantic. it valid
 
 ok the password part is over. hashing baby. its a one way street. in the tutorial they use bcrypt algorithm, so i used the same thing. blowfish. what a goofy little goober. fucking blowfish is protecting your account data in case of a database leak. thank him/her.  
 
-![arkhamalsume](/images/imagesforapipage/3.png)
+![arkhamalsume](/images/imagesforapipage/3.jpg)
 
 so now that the password part is over. we've come to the part ive waited so long for. loading a user specific profile page. this is so fucking cool.  
