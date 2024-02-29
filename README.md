@@ -17,5 +17,3 @@ if you make fun of my code ill track you down and eat your little toe.
 2. [virtual cpu - because fuck you](virtualcpu.md) [status: TO BE STARTED - 0.1%]
 3. [aping - its api-ing time?(sup apiers)](apiing.md) [80% done: deployment, database migrations and CI/CD pipeline part is left]
 
-
-### [physics](physics.md): i love it when physics just physicses.
