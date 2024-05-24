@@ -7,4 +7,6 @@ the setup was hard. you had to add ffmpeg binaries as a path variable for some r
 
 ***Daenerys Stormborn of House Targaryen, the First of Her Name, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, the Mother of Dragons, the Khaleesi of the Great Grass Sea, the Unburnt, and the Breaker of Chains*** ![clarke](images/imagesforffmpeg/1st.png)
 
-yeah. ok im a fucking idiot. we set the binaries as a path variable so we dont have to type of the whole thing when executing it (cuz its an executable). its literally in the fucking name, path VARIABLE. ok.
+yeah. ok im a fucking idiot. we set the binaries as a path variable so we dont have to type of the whole thing when executing it (cuz its an executable). its literally in the fucking name, path VARIABLE.
+
+so i just learnt how to make the part where we get the server id and then we register all the commands, so that when a user enters it the bot responds to it (this is just the registering part not the responding part). if this sounds familiar this just the REST principle where instead of the database we access the command list.
