@@ -7,7 +7,6 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
-2. [getting ffmpegged - discord music bot](ffmpegged.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
