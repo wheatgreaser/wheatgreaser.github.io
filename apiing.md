@@ -72,3 +72,5 @@ wow this guy made jwts super simple. i thought it was going to be some advanced 
 ## 26th june, 2024:
 so. its been a while. howdy? i forgot everything about apis. how fun. anywho to exercise my api "muscles" i want to a build a project. ok fuck you yes its a stack exchange clone. you anonymously pose questions(cause i dont know user authentication) then someone anonymously answers it. should be simple. 
 things are working?? what the fuck. i setup a virtual environment and i just installed all the shit, i managed to create an endpoint for 2 get requests (getting all the posts and getting one specific post) and end point for a post request(to post a post). all i have to do now is setup postgresql to bring in some database functionality. after that i have to create the "responding to posts" part, which, lets be honest, i dont know batshit about. 
+
+ok the databse part is done. this is so fucking sick. i can add and delete posts. now comes the fucking frontend. gods. WAIT. ive done a similar project before. when i made the scheduler i had to interface frontend, so i can refer to that, fuck yes. 
