@@ -8,7 +8,7 @@ if you make fun of my code ill track you down and eat your little toe.
 ### list of projects I'm currently workin on:
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
 2. [aping - its api-ing time?(sup apiers)](apiing.md) [80% done: deployment, database migrations and CI/CD pipeline part is left]
-3. [making a 2d game because im a fucking nerd](twodgame.md)
+
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
