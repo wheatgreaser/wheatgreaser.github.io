@@ -74,3 +74,6 @@ so. its been a while. howdy? i forgot everything about apis. how fun. anywho to 
 things are working?? what the fuck. i setup a virtual environment and i just installed all the shit, i managed to create an endpoint for 2 get requests (getting all the posts and getting one specific post) and end point for a post request(to post a post). all i have to do now is setup postgresql to bring in some database functionality. after that i have to create the "responding to posts" part, which, lets be honest, i dont know batshit about. 
 
 ok the databse part is done. this is so fucking sick. i can add and delete posts. now comes the fucking frontend. gods. WAIT. ive done a similar project before. when i made the scheduler i had to interface frontend, so i can refer to that, fuck yes. 
+
+## 27th june, 2024:
+ok here's the thing. I dont fucking know how to add "comments" under a post. if i make a stackexchange clone then I need to add that feature, so how am i going to do that? idk. so we're going to pivot. i'll do this till the front end post part and then ill learn authentication and shit AND after that ill return to this, so hopefully by then (when i learn user auth) i'll have some idea on how to create comments under a specific post.
