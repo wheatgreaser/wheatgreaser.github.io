@@ -77,3 +77,5 @@ ok the databse part is done. this is so fucking sick. i can add and delete posts
 
 ## 27th june, 2024:
 ok here's the thing. I dont fucking know how to add "comments" under a post. if i make a stackexchange clone then I need to add that feature, so how am i going to do that? idk. so we're going to pivot. i'll do this till the front end post part and then ill learn authentication and shit AND after that ill return to this, so hopefully by then (when i learn user auth) i'll have some idea on how to create comments under a specific post.
+
+HOLY FUCKING SHIT I JUST FINISHED DEBUGGING THE CORS AND I FEEL LIKE I TOOK A HUGE SHIT HAHAHA HIMA:KN D. yes. the frontend is done (no css ill get to that later). basically the user can now upload posts using a form and the data will get uploaded into the database. now displaying the posts AND creating speerate html files for posts remains. NOW FINALLY, i can start learning user auth. 
