@@ -9,3 +9,4 @@ lets say your company has install a web filter on port 80 to stop us from watchi
 
 i just sshed into my android phone and its fucking trippy like wtf, i can just transfer files and shit. 
 
+i found [this](https://www.youtube.com/watch?v=dPAw4opzN9g) amazing video on how SSH keys work. there are two keys: the public key and private key. anyone can have the public key, but the private key is yours and yours alone. so you calculate the public key from your private key (vice versa is not possible) and then the server takes a random string and encrypts it using the public key (the encrytpion can only be broken by the private key), then we decrypt it using the private key, and we send the proof that we decrypted it back to the server (not the decrypted text itself). once this is both get symmetric keys which is used to encrypt the data during transmission (as i explained before).
