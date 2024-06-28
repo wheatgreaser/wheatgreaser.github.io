@@ -91,3 +91,9 @@ ok. the docs are kind of clear. there are no comments, they didnt bother to expl
 
 this snippet creates the jwt access token and i had to puzzle out a lot of shit to figure out what it meant. so basically we get the expiry time and add to to the time rn to get the expiry date. we create the jwt token by combining the user data (username, expiry date, etc) and the secret key which is just a 32 characters long random hexadecimal string. we also specify the algorithm. now we return the encoded jwt token to the user.
 
+ok i think i sort of understand the whole process.
+![fullsummary](/images/imagesforapipage/6.png)
+
+## 29th june, 2024:
+although i feel like ive understood how apis work there ar still a few things left for instance i dont fully understand Dependencies even after using it multiple times in my code. i also feel like i understand the JWT authentication system only at a high level, i.e, i dont quite understand the nitty-gritty things. to fix these issues i need to build projects, and for the project i have in mind we need to learn React. so shall we proceed lads (and ladettes)?
+
