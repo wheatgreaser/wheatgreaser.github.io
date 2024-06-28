@@ -11,7 +11,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
-2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md) [scale: yocto]
+2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md) [scale: pico]
 3. [i can SSH into your mom](ssh.md) [scale: yocto]
 4. [aping - its api-ing time(im going apeshit)](apiing.md) [scale: nano] 
 
