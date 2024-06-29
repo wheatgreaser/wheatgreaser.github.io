@@ -9,4 +9,8 @@ it helps to think of OpenGL as a state machine because the things that OpenGL is
 this segment explains objects in OpenGL way better than i could:
 ![objectsinopenGL](/images/imagesforopengl/1.png)
 
-so when an object is created, we bind it to the whole OpenGL context, then we set the options (because the object is just a bunch of state variables (which are a subset of the state variables of the whole context)) and then unbind the object. for instance lets say i have a 3d model of twin towers (fly high bro), the object will just act as a container and when we want to draw the 3d model i just bind the object to the context. 
+so when an object is created, we bind it to the whole OpenGL context, then we set the options (because the object is just a bunch of state variables (which are a subset of the state variables of the whole context)) and then unbind the object. for instance lets say i have a 3d model of twin towers (fly high bro), the object will just act as a container and when we want to draw the 3d model i just bind the object to the context.
+
+opengl is such a bitch. the motherfucker cant create window, define a context or handle user input. we need another library called GLFW that does all that. 
+
+holy fucking shit. bro. it took me 1 hour to setup this whole thing. jesus fucking christ. ive never felt more like a noob, i had to install these binaries and "build" it like wtf, bro these sweaty nerds, why do they do shit like this. after an hour of hating myself, i managed to add all the libraries. AND AFTER THAT i had to fucking add these directories to visual studio, which gave me several cardiac arrests by saying "cannot run" which turned out to be beacuse it was trying to run my project which doesnt have an exe file. after this shitshow i managed to set it all up. lads, does this horseshit ever get easier??
