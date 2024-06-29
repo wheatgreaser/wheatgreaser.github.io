@@ -9,4 +9,4 @@ it helps to think of OpenGL as a state machine because the things that OpenGL is
 this segment explains objects in OpenGL way better than i could:
 ![objectsinopenGL](/images/imagesforopengl/1.png)
 
-so when an object is created, we bind it to the whole OpenGL context, then we set the options(because the objects is just a bunch of state variables (which are a subset of the state variables of the whole context)) and then unbind the object. for instance lets say i have a 3d model of twin towers (fly high bro), the object will just act as a container and when we want to draw the 3d model i just bind the object to the context. 
+so when an object is created, we bind it to the whole OpenGL context, then we set the options (because the object is just a bunch of state variables (which are a subset of the state variables of the whole context)) and then unbind the object. for instance lets say i have a 3d model of twin towers (fly high bro), the object will just act as a container and when we want to draw the 3d model i just bind the object to the context. 
