@@ -23,7 +23,9 @@ I MADE A WINDOW I MADE A WINDOW I MADE A FUCKING WINDOW HAHAHAHAH LETS FUCKING G
 ![imadeawindow](/images/imagesforopengl/2.png)
 
 the process is actually straight forward?? like wtf. lets run through each line of the code. first we have:
+
 ![headers](/images/imagesforopengl/3.png)
+
 these are the header files. we already know that we use GLFW for managing windows and shit. next we have glad, glad maanages function pointers for opengl because the address of the function pointers are OS-specific and opengl is dumby-dumb and doesnt know the address of the function pointers. 
 
 next we have:
