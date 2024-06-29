@@ -1,0 +1,12 @@
+# making a gaming engine - im 99% sure im going to regret this
+i like graphics. moving things on the screen? yum. love it. i also thought it would be a good break from the web. i also like video games, ive made games(ok fuck you, unfinished miserable projects that barely pass the minimum requirement of what can be considered a game) in unity before. and i also want to do that in the future, but i really want to know how the engine actually works, and also it would allow me to build my own fucking engine whcih can be tailor made for certain types of games. i know its going to be no Unreal Engine but still. also to flex. i really want to show off my own game engine.
+
+## 29 june, 2024:
+ok im using OpenGL obviously. but what the fuck is OpenGL? some "people" call it a graphics API others call it a "state machine". as i understand it, OpenGL basically provides you the tools with which you can do shit like loading a window, drawing a triangle and shit like that with the help of graphics libraries. if game engine is the tool with which you build/"run" the game, OpenGL is the tool with which you build the game engine. im following [this tutorial](https://learnopengl.com/) because people call it the best.
+
+it helps to think of OpenGL as a state machine because the things that OpenGL is dependent on its current state/context variables. for instance if we want to OpenGL to draw triangles instead of spheres we change a specifc context variable. most of the shit we do in OpenGL working with state-using functions (draw spheres) and state-switching functions(stop drawing spheres draw triangles). basically a collection of variables determines how it operates thats it.
+
+this segment explains objects in OpenGL way better than i could:
+![objectsinopenGL](/images/imagesforopengl/1.png)
+
+so when an object is created, we bind it to the whole OpenGL context, then we set the options(because the objects is just a bunch of state variables (which are a subset of the state variables of the whole context)) and then unbind the object. for instance lets say i have a 3d model of twin towers (fly high bro), the object will just act as a container and when we want to draw the 3d model i just bind the object to the context. 
