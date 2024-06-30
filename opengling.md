@@ -64,17 +64,11 @@ the graphics pipline takes 3d coordinates and displays it as 2d colored pixels o
 ![graphicspipeline](/images/imagesforopengl/10.png)
 
 ok lets break it down.
-#### 1. vertex shader:
-takes the 3d coordinates (which are in the form of a vertex(vectors)) and transforms them into a different set of 3d coordinates we can work with. the vertex just consists of the 3d coordinates and color.
-#### 2. geometry shader (optional):
-basically we add other vertices to more vertices to modify the primitive shape, in the image given they added another vertex to create 2 triangles. 
-#### 3. primitive assembly:
-takes the geometry shader/vertex shader output and joins it to make a shape (2 triangles). 
-#### 4. rasterization stage:
-we map the primitives to pixels on the screen (this is the exciting part imo) resulting in fragments. fragment is all the data required by opengl to to render a single pixel(color, position, etc). we also perform clipping where we hide things out of our view to save up on resources. we then pass these fragments to the fragment shader.
-#### 5. fragment shader:
-fragment shader finds the final color of the pixel by taking all the objects in the 3d space into account (shadows, lighting, etc).
-#### 6. blending stage/alpha test:
-we check if the fragment is behind or in front of other objects and we have to discard the data accordingly. 
+1. vertex shader: takes the 3d coordinates (which are in the form of a vertex(vectors)) and transforms them into a different set of 3d coordinates we can work with. the vertex just consists of the 3d coordinates and color.
+2. geometry shader (optional): basically we add other vertices to more vertices to modify the primitive shape, in the image given they added another vertex to create 2 triangles. 
+3. primitive assembly: takes the geometry shader/vertex shader output and joins it to make a shape (2 triangles). 
+4. rasterization stage: we map the primitives to pixels on the screen (this is the exciting part imo) resulting in fragments. fragment is all the data required by opengl to to render a single pixel(color, position, etc). we also perform clipping where we hide things out of our view to save up on resources. we then pass these fragments to the fragment shader.
+5. fragment shader: fragment shader finds the final color of the pixel by taking all the objects in the 3d space into account (shadows, lighting, etc).
+6. blending stage/alpha test: we check if the fragment is behind or in front of other objects and we have to discard the data accordingly. 
 modern opengl is such a dick. we need to define our own vertex AND fragment shader. 
 
