@@ -1,6 +1,8 @@
 # making a gaming engine - im 99% sure im going to regret this
 i like graphics. moving things on the screen? yum. love it. i also thought it would be a good break from the web. i also like video games, ive made games(ok fuck you, unfinished miserable projects that barely pass the minimum requirement of what can be considered a game) in unity before. and i also want to do that in the future, but i really want to know how the engine actually works, and also it would allow me to build my own fucking engine whcih can be tailor made for certain types of games. i know its going to be no Unreal Engine but still. also to flex. i really want to show off my own game engine.
 
+you can find the repo [here](https://github.com/wheatgreaser/learningopengl)
+
 ## 29 june, 2024:
 ok im using OpenGL obviously. but what the fuck is OpenGL? some "people" call it a graphics API others call it a "state machine". as i understand it, OpenGL basically provides you the tools with which you can do shit like loading a window, drawing a triangle and shit like that with the help of graphics libraries. if game engine is the tool with which you build/"run" the game, OpenGL is the tool with which you build the game engine. im following [this tutorial](https://learnopengl.com/) because people call it the best.
 
@@ -71,4 +73,10 @@ ok lets break it down.
 5. fragment shader: fragment shader finds the final color of the pixel by taking all the objects in the 3d space into account (shadows, lighting, etc).
 6. blending stage/alpha test: we check if the fragment is behind or in front of other objects and we have to discard the data accordingly. 
 modern opengl is such a dick. we need to define our own vertex AND fragment shader. 
+
+the 3d coordinate input that we give opengl is in a range b/w -1.0 and 1.0 we call this the normalized device coordinates range, any coordinates that lie out of these coordinates get clipped. the vertex data is just this:
+
+![vertex data](/images/imagesforopengl/11.png)
+
+
 
