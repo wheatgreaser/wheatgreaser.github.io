@@ -56,6 +56,31 @@ The glfwWindowShouldClose function checks at the start of each loop iteration if
 
 i also added things like changing the color of the screen by changing the color buffer, and i also added user input where you exit the window if you press the escape key. these two things are added part of the render loop, so it is done during each iteration (user input is checked for every iteration and the color is set during every iteration).
 
-that was it. that was actually easier than i thought. glfw made windows like super super simple. 
+that was it. that was actually easier than i thought. glfw made windows like super super simple.
 
+### graphics pipeline:
+the graphics pipline takes 3d coordinates and displays it as 2d colored pixels on the screen, easy right? wrong. fuck you. the graphics pipline basically has a bunch of steps linked with eachother such that the input of the current step is the output of the previous step. we can run these "steps" in parallel. each step runs a small piece of code we call them shaders. the gpus leverage the parallelness and squeeze out maximum efficiency. if you are a fucking nerd (which i assume you are because you are reading this) then you can customize the shaders, theres this language called opengl shading language with which you can customize them. ok so here's the graphics pipeline ([source](https://learnopengl.com/Getting-started/Hello-Triangle)):
+
+![graphicspipeline](/images/imagesforopengl/10.png)
+
+ok lets break it down.
+#### vertex shader:
+takes the 3d coordinates (which are in the form of a vertex(vectors)) and transforms them into a different set of 3d coordinates we can work with. the vertex just consists of the 3d coordinates and color.
+
+#### geometry shader (optional):
+basically we add other vertices to more vertices to modify the primitive shape, in the image given they added another vertex to create 2 triangles. 
+
+#### primitive assembly:
+takes the geometry shader/vertex shader output and joins it to make a shape (2 triangles). 
+
+#### rasterization stage:
+we map the primitives to pixels on the screen (this is the exciting part imo) resulting in fragments. fragment is all the data required by opengl to to render a single pixel(color, position, etc). we also perform clipping where we hide things out of our view to save up on resources. we then pass these fragments to the fragment shader.
+
+#### fragment shader:
+fragment shader finds the final color of the pixel by taking all the objects in the 3d space into account (shadows, lighting, etc).
+
+#### blending stage/alpha test:
+we check if the fragment is behind or in front of other objects and we have to discard the data accordingly. 
+
+modern opengl is such a dick. we need to define our own vertex AND fragment shader. 
 
