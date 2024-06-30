@@ -81,7 +81,7 @@ the 3d coordinate input that we give opengl is in a range b/w -1.0 and 1.0 we ca
 
 to send the vertex data to vertex shader we first need to allocate some memory for it in the GPU. we manage the gpu memory by using vector buffer objects, this basically process the data of the vertices all at once instead of like one at a time. 
 
-![vbos](/images/imagesforopengl/11.png)
+![vbos](/images/imagesforopengl/12.png)
 
 glBufferData is a function specifically targeted to copy user-defined data into the currently bound buffer. Its first argument is the type of the buffer we want to copy data into: the vertex buffer object currently bound to the GL_ARRAY_BUFFER target. The second argument specifies the size of the data (in bytes) we want to pass to the buffer; a simple sizeof of the vertex data suffices. The third parameter is the actual data we want to send. the fourth parameter specifies how we want the graphics card to manage the given data. since the position of the triangle does not change with time we use GL_STATIC_DRAW. if we GL_DYNAMIC_DRAW we allocate memory that allows faster writes. now we have placed the vertex data inside the gpu memory by using a vertex buffer object (gods i sound like a fucking nerd), now we can make a vertex shader that can process this data.
 
