@@ -13,9 +13,8 @@ if you make fun of my code ill track you down and eat your little toe.
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
 2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md) [scale: pico]
 3. [aping - its api-ing time(im going apeshit)](apiing.md) [scale: nano] 
+4. [i can SSH into your mom](ssh.md) [scale: yocto]
 
-### others:
-1. [i can SSH into your mom](ssh.md) [scale: yocto]
 
 ### backburner(my lazy ass put these off for the future): 
 1. [geometric encryption - a billionaire, genius, playboy, philanthropist ass idea](geometricalencryption.md) [status: GIVEN UP (maybe ill return when i have enough math skills)]
