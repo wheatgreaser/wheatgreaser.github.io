@@ -78,12 +78,17 @@ the 3d coordinate input that we give opengl is in a range b/w -1.0 and 1.0 we ca
 
 ![vertex data](/images/imagesforopengl/11.png)
 
-
-to send the vertex data to vertex shader we first need to allocate some memory for it in the GPU. we manage the gpu memory by using vector buffer objects, this basically process the data of the vertices all at once instead of like one at a time. 
+## july 2, 2024:
+to send the vertex data to vertex shader we first need to allocate some memory for it in the GPU. we manage the gpu memory by using vector buffer objects, these basically process the data of the vertices all at once instead of like one at a time. 
 
 ![vbos](/images/imagesforopengl/12.png)
 
-glBufferData is a function specifically targeted to copy user-defined data into the currently bound buffer. Its first argument is the type of the buffer we want to copy data into: the vertex buffer object currently bound to the GL_ARRAY_BUFFER target. The second argument specifies the size of the data (in bytes) we want to pass to the buffer; a simple sizeof of the vertex data suffices. The third parameter is the actual data we want to send. the fourth parameter specifies how we want the graphics card to manage the given data. since the position of the triangle does not change with time we use GL_STATIC_DRAW. if we GL_DYNAMIC_DRAW we allocate memory that allows faster writes. now we have placed the vertex data inside the gpu memory by using a vertex buffer object (gods i sound like a fucking nerd), now we can make a vertex shader that can process this data.
+we can use different types of buffers but the one they're using in the tutorial is a GL_ARRAY_BUFFER, which allows us to bind several buffers concurrently. now we copy the user data (the triangle vertices) into the currently bound buffer (gpu memory allocation). now we can pass several of these user defined data (datas??) simultaneously for allocation in gpu memory. now im using a GL_SATIC_DRAW argument which means the data is set once and and accessed many times (the data doesnt change). ok now we stored the vertex data in the gpu by using vertex buffer objects. NOW we can make the fucking vertex shader. 
 
+the shaders are written in a "shader language" called GLSL, whcih is like a local language for opengl shader programming. its super similar to C so it shouldnt be that big of a deal. ok so here's the vertex shader:
+
+![vertexshader](/images/imagesforopengl/13.png)
+
+lets break it down (its hammer time (no im not 30 i just like that song)), first we specify the opengl version as 3.3 next we assign the position of the vector in "vec3" input variable (basically a mthematics vector instead of the stupid array masquerading as a vector). we also set the location of the variableas "0". next we assign this data into a vec4 variable with the fourth argument being a bit of a mystery for now. this is called a simplified version because we did 0 preporcessing, the input data was just assumed to be in the normalized range, but in real applications thats not the case.
 
 
