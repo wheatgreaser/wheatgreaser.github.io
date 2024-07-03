@@ -118,5 +118,6 @@ now we need to make a vertex array object. i know, i know im getting sick of the
 
 I MADE A TRIANGLE I MADE A FUCKING TRIANGLEN HAHAHAHAH LETS FUCKING GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO. but i still feel a bit icky because i dont understand the VAO part.
 
-
+## july 4, 2024:
+i think i understand how VAOs work. they basically store the intial vertex data, it allows us to basically pass in all the data as one, for instance the color, position, etc are all combined into one object and sent in. this basically allows us to work with multiple vertex buffers easily(remember the vertex buffer object allocates the vertex data to the gpu so it needs to allocate the postion data to a part and the color data to another part, by doing this we make the allocation process easier for us).
 
