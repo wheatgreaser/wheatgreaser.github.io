@@ -89,6 +89,34 @@ the shaders are written in a "shader language" called GLSL, whcih is like a loca
 
 ![vertexshader](/images/imagesforopengl/13.png)
 
-lets break it down (its hammer time (no im not 30 i just like that song)), first we specify the opengl version as 3.3 next we assign the position of the vector in "vec3" input variable (basically a mthematics vector instead of the stupid array masquerading as a vector). we also set the location of the variableas "0". next we assign this data into a vec4 variable with the fourth argument being a bit of a mystery for now. this is called a simplified version because we did 0 preporcessing, the input data was just assumed to be in the normalized range, but in real applications thats not the case.
+lets break it down (its hammer time (no im not 30 i just like that song)), first we specify the opengl version as 3.3 next we assign the position of the vector in "vec3" input variable (basically a mthematics vector instead of the stupid array masquerading as a vector). we also set the location of the variableas "0". next we assign this data into a vec4 variable with the fourth argument being a bit of a mystery for now. this is called a simplified version because we did 0 preporcessing, the input data was just assumed to be in the normalized range, but in real applications thats not the case. then we compile the shader.
+
+## july 3, 2024:
+now we need to write the fragment shader which is the shader that determines the final value of the pixel on the screen(by taking the whole game scene(lightning, visual effects, shadows, etc) into account (but in this "game" there is no game scene so we're just going to be giving the fragements solid color), also technically the final final color is determined by the blending stage because obviously if an object is in front of it itll get clipped). now we're noobs so we're just going to be rendering a constant orange pixel for our triangle. 
+
+now we need to link all the shaders together. its like putting together different lego pieces. we do this by creating a shader program object and then linking them together, opengl basically links the output of one shader to the input of the next shader. damn i never though id say this but, opengl really makes things easy for us. i mean, look at this shit:
+
+![linking shaders](/images/imagesforopengl/14.png)
+
+and we can start the process by using glUseProgram(shaderProgram). fucking easy. we finally delete the shader objects (i dont exactly know why).
+
+we have our shaders and the vertex data but opengl still doesnt know how to connect the vertex data to the vertex shader attributes. our vertex buffer data is stored in the gpu like this [credit] (https://learnopengl.com/Getting-started/Hello-Triangle). 
+
+![vertex buffer format](15.png)
+
+we have to take the vertex input (from the gpu memory, which we assigned to it with the help of a vertex buffer object) and take the first value and assign it to x and then the next to y and the next to z of the vertex shader vec3 thing we wrote. atleast thats how i understand it, the website skims over this part so dont blame me if i got it wrong.
+
+now to summarize:
+
+![summary](/images/imagesforopengl/16.png)
+
+we take the vertex data assign it to gpu using a vertex buffer objects then we take it out of the memory and assign the attributes to the shader, then we start the graphics pipeline where the output of the first step is the input of the second step and then we draw the object by using some method.
+
+now we need to make a vertex array object. i know, i know im getting sick of the vertex too but we're almost there. i hope. im not sure what this fucking thing does. im banging my fucking head but the explanation given is so vague and cryptic. so as i understand it (take it with a pound of salt) the vertex array object just has these vertex attributes "on hand" so they can be easily assigned. maybe i'll understand this better when i go through more advanced shit.
+
+![imcrying](/images/imagesforopengl/17.png)
+
+I MADE A TRIANGLE I MADE A FUCKING TRIANGLEN HAHAHAHAH LETS FUCKING GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO. but i still feel a bit icky because i dont understand the VAO part.
+
 
 
