@@ -102,7 +102,7 @@ and we can start the process by using glUseProgram(shaderProgram). fucking easy.
 
 we have our shaders and the vertex data but opengl still doesnt know how to connect the vertex data to the vertex shader attributes. our vertex buffer data is stored in the gpu like this [credit] (https://learnopengl.com/Getting-started/Hello-Triangle). 
 
-![vertex buffer format](15.png)
+![vertex buffer format](/images/imagesforopengl/15.png)
 
 we have to take the vertex input (from the gpu memory, which we assigned to it with the help of a vertex buffer object) and take the first value and assign it to x and then the next to y and the next to z of the vertex shader vec3 thing we wrote. atleast thats how i understand it, the website skims over this part so dont blame me if i got it wrong.
 
