@@ -100,7 +100,7 @@ now we need to link all the shaders together. its like putting together differen
 
 and we can start the process by using glUseProgram(shaderProgram). fucking easy. we finally delete the shader objects (i dont exactly know why).
 
-we have our shaders and the vertex data but opengl still doesnt know how to connect the vertex data to the vertex shader attributes. our vertex buffer data is stored in the gpu like this [credit] (https://learnopengl.com/Getting-started/Hello-Triangle). 
+we have our shaders and the vertex data but opengl still doesnt know how to connect the vertex data to the vertex shader attributes. our vertex buffer data is stored in the gpu like this [credit](https://learnopengl.com/Getting-started/Hello-Triangle). 
 
 ![vertex buffer format](/images/imagesforopengl/15.png)
 
