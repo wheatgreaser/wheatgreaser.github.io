@@ -130,3 +130,26 @@ the rest of the shit remains the same.
 ok so in the tutorial im following they give shit like "assignments" and im a nerd ass loser, so im going to do it. the first one seems easy: make two triangles adjacent to each eachother, this is super easy(but my method involves duplication). in the second one i have to color one triangle orange and the other one yellow. this one also seems easy because we just part one set of vertices down one pipeline with the fragment shader outputing orange color and the other set down another pipeline which contains the shader which outputs yellow color.
 
 holy fucking shit. i accidentally corrupted the project file. I FUCKING MANAGED TO RECOVER IT USING GIT HAHA. wowoowowow. version control seems mundane till you desperately need it.
+
+ok so the tutorial is diving deep into shaders. which i think is cool because i dont really understand glsl, the language you use for scripting shaders (its sort of like C).
+
+the input variable in the context of the vertex shader is called a vertex attribute, this is the "vertices[]" array we pass in the beginning of the graphics pipeline.
+
+in glsl a vector is a component conatainer for instance vec3 has 3 components: x, y, and z. we also use another container called rgba for storing colors, if you recall these different things represent each pixel (position, color) and these get passed into the VAO which allocates the vec3 to a particular VBO and that assigns the first value to x the second to y and so on. there's this cool feature in glsl called swizzling. this is where you play around with the vector components, and honestly its super intuitive.
+
+![swizzling](19.png)
+
+we specify the location of the position vector (in the gpu memory) using layout location = 0 which sets the starting index of the "array" which represents the memory to be 0.
+
+![location layout](20.png)
+
+for example in this snippet the "input" is referenced as the aPos vector. we basically copy the vertex data into the aPos vector by referencing the 0th index of the gpu memory and adding 4 (because integer is four bytes) for each successive component. so 0 - 3 will be X coordinate, 4 - 7 will be the y coordinate and so on. 
+
+ the fragment shader also requires a vec4 output so that we can decide the output color. 
+
+uniforms are a way to pass in data. uniforms are global so they can be accessed by any part in the pipeline. 
+
+now using uniforms i made this (ok not me i followed the tutorial) sick animation.
+
+![sinegreen](/images/imagesforopengl/21.mp4)
+
