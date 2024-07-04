@@ -121,3 +121,9 @@ I MADE A TRIANGLE I MADE A FUCKING TRIANGLEN HAHAHAHAH LETS FUCKING GOOOOOOOOOOO
 ## july 4, 2024:
 i think i understand how VAOs work. they basically store the intial vertex data, it allows us to basically pass in all the data as one, for instance the color, position, etc are all combined into one object and sent in. this basically allows us to work with multiple vertex buffers easily(remember the vertex buffer object allocates the vertex data to the gpu so it needs to allocate the postion data to a part and the color data to another part, by doing this we make the allocation process easier for us).
 
+now we NEED to make a square. since youre a fucking idiot you might be thinking that you could just create two triangles and join them, but you absolute fool there are now two duplicate vertices, did you consider that you moron?? what if i wanted to make complex model, will they all just overlapped, are we doomed to make duplicate vertices forever? no. thats where the element buffer objects come in, they use something called indexed drawing where you just specify the vertices and the order of the index in which they are to be generated. for example:
+
+![element buffer objects](/images/imagesforopengl/18.png)
+
+the rest of the shit remains the same.
+
