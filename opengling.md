@@ -129,3 +129,4 @@ the rest of the shit remains the same.
 
 ok so in the tutorial im following they give shit like "assignments" and im a nerd ass loser, so im going to do it. the first one seems easy: make two triangles adjacent to each eachother, this is super easy(but my method involves duplication). in the second one i have to color one triangle orange and the other one yellow. this one also seems easy because we just part one set of vertices down one pipeline with the fragment shader outputing orange color and the other set down another pipeline which contains the shader which outputs yellow color.
 
+holy fucking shit. i accidentally corrupted the project file. I FUCKING MANAGED TO RECOVER IT USING GIT HAHA. wowoowowow. version control seems mundane till you desperately need it.
