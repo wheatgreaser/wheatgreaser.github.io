@@ -137,11 +137,11 @@ the input variable in the context of the vertex shader is called a vertex attrib
 
 in glsl a vector is a component conatainer for instance vec3 has 3 components: x, y, and z. we also use another container called rgba for storing colors, if you recall these different things represent each pixel (position, color) and these get passed into the VAO which allocates the vec3 to a particular VBO and that assigns the first value to x the second to y and so on. there's this cool feature in glsl called swizzling. this is where you play around with the vector components, and honestly its super intuitive.
 
-![swizzling](19.png)
+![swizzling](/images/imagesforopengl/19.png)
 
 we specify the location of the position vector (in the gpu memory) using layout location = 0 which sets the starting index of the "array" which represents the memory to be 0.
 
-![location layout](20.png)
+![location layout](/images/imagesforopengl/20.png)
 
 for example in this snippet the "input" is referenced as the aPos vector. we basically copy the vertex data into the aPos vector by referencing the 0th index of the gpu memory and adding 4 (because integer is four bytes) for each successive component. so 0 - 3 will be X coordinate, 4 - 7 will be the y coordinate and so on. 
 
