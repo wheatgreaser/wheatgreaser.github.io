@@ -149,7 +149,11 @@ for example in this snippet the "input" is referenced as the aPos vector. we bas
 
 uniforms are a way to pass in data. uniforms are global so they can be accessed by any part in the pipeline. 
 
-now using uniforms i made this (ok not me i followed the tutorial) sick animation.
+now using uniforms i made this (ok not me i followed the tutorial) sick animation where the green value of the output of the fragment shader changes according to a sine wave (so the green color changes periodically). its nuts. lets break down the code.
 
-![sinegreen](/images/imagesforopengl/21.mp4)
+![uniform sine green](/images/imagesforopengl/21.png)
+
+right. so we basically set the green value as a function of time using the glfw library. then we store the location(memory address) of the uniform ourColor (which contains the output color data of the fragment shader) into a variable.then we invoke the glUniform4f function which we use to set change the color at the memory address of the ourColor uniform.
+
+you might have noticed in the last entry we just set the output as a particular color we did not recieve it as an input. i also mentioned how the VAO deals with the pos, color, etc to send them to relevant vertex object which in turns assigns them to the gpu memory. well, now we set the set the color data as an input.
 
