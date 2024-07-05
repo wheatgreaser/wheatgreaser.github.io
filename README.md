@@ -7,6 +7,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on:
 1. [graphicsing - making a game engine with OpenGL](opengling.md)
+2. [croning the shit out of git](cronjobs.md)
 
 
 ### done?? (this is such a poggies gigachad moment):
