@@ -7,4 +7,4 @@ the plan is simple:
 3. ????
 4. profit
 
-its simple. the thing is, i dont know how cronjobs work let alone how to set it up in my android phone. this is going to be fun.
+its simple. the thing is, i dont know how cronjobs work. this is going to be fun.

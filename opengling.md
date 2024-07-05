@@ -162,5 +162,9 @@ so now we specify the location of the color data using layout location = 1 (we g
 
 ![memory rep](/images/imagesforopengl/22.png)
 
-now we also modify the fragment shader to let it take the color data as an input.
+now we also modify the fragment shader to let it take the color data as an input. now we get the final output as:
+
+![fragment interpolation](/images/imagesforopengl/23.png)
+
+now we dont expect this output, we specified three colours so how did we get this weird ass blend. this is because of soemthing called fragment interpolation. bacially during the rasterization stage the vectors get mapped to pixels and during that process many fragments are created (not just 3) if you remember a fragment contains all the data about a pixel. now the rasterizer does something clever, it determinses the color of the fragment by taking the position of the pixel into account. for example if a pixel is in the bottom left it should be more green-y.
 
