@@ -168,3 +168,7 @@ now we also modify the fragment shader to let it take the color data as an input
 
 now we dont expect this output, we specified three colours so how did we get this weird ass blend. this is because of soemthing called fragment interpolation. bacially during the rasterization stage the vectors get mapped to pixels and during that process many fragments are created (not just 3) if you remember a fragment contains all the data about a pixel. now the rasterizer does something clever, it determinses the color of the fragment by taking the position of the pixel into account. for example if a pixel is in the bottom left it should be more green-y.
 
+i just wasted 2 hours trying to configure neovim. fuck me. windows is just so ass for this type of shit. i should switch to a better OS. fuck windows. fuck this shit. 2 whole hours gone down the fucking toilet.
+
+alright. now we need to deal with textures.
+
