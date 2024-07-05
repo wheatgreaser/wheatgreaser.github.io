@@ -211,3 +211,7 @@ float texCoords[] = {
 
 now what if the texture map is smaller than the (0,0) to (1,1) square, well, we jsut repeat it. opengl also comes with texture filtering libraries when the textures all low-res but the object is massive.
 
+mipmap is a funny name for a depressingly mundane thing. we create textures of different resolutions and use them on the basis of distance, the closer objects are given textures with a high resolution and the ones far away are given texutres with a low resolution. the minmapped texture looks like this:
+
+![minmapped](/images/imagesforopengl/24.png)
+
