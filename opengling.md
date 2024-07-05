@@ -155,5 +155,12 @@ now using uniforms i made this (ok not me i followed the tutorial) sick animatio
 
 right. so we basically set the green value as a function of time using the glfw library. then we store the location(memory address) of the uniform ourColor (which contains the output color data of the fragment shader) into a variable.then we invoke the glUniform4f function which we use to set change the color at the memory address of the ourColor uniform.
 
-you might have noticed in the last entry we just set the output as a particular color we did not recieve it as an input. i also mentioned how the VAO deals with the pos, color, etc to send them to relevant vertex object which in turns assigns them to the gpu memory. well, now we set the set the color data as an input.
+you might have noticed in the last entry we just set the output as a particular color we did not recieve it as an input. i also mentioned how the VAO deals with the pos, color, etc to send them to the relevant vertex buffer object which in turns assigns them to the gpu memory. well, now we set the set the color data as an input.
+
+## july 5, 2024:
+so now we specify the location of the color data using layout location = 1 (we gave location = 0 for the position data). so the memory representation looks a bit like:
+
+![memory rep](/images/imagesforopengl/22.png)
+
+now we also modify the fragment shader to let it take the color data as an input.
 
