@@ -170,5 +170,30 @@ now we dont expect this output, we specified three colours so how did we get thi
 
 i just wasted 2 hours trying to configure neovim. fuck me. windows is just so ass for this type of shit. i should switch to a better OS. fuck windows. fuck this shit. 2 whole hours gone down the fucking toilet.
 
-alright. now we need to deal with textures.
+ok. next up we got textures, but before i dive into that i want to go through each line of the code again. because i wrote a lot of shit. i barely remember things like glfw (just kidding but still). 
 
+ok first up we got all the libraries iostream, glad and glfw. glfw is for window management and glad is for keeping track of our function pointers(for those of you new to c++ like i am, function pointers basically store the memory address of the starting part of the function we can dereference them(just like we do with a normal pointer) to call it). next we start the code by calling glfwinit() and then we specify the version and the type (core or backwards compatible) using the glwWindowHint() method. next we create a class pointer called window. the class is called GLFWwindow and is a template of the window object. we can specify the width, height and the name of the window object while calling the glfwCreateWindow() method which returns the memory address of the window object. in c++ we can access all the object data using its pointer alone. next up we set the current context (remember opengl is nothing but a state machine everything is done by assigning values to the context/state variables which determine its operation). by setting the window as the current context we set the repeective context variables which leads to the creation of a window object within the context of opengl. we also set the size of the rendering window using glViewPort(). now this method is different from the window object. this is the rendering window which means the thing visible to the user, its size CAN be different from the window object. the window object actually holds all the data. we have a method called framebuffer_size_callback that basically adjusts the viewport (the displaying/user interface part of the window) when the user makes changes to the size or position from their end. glfw provides us with a method that allows us to call this method each time the user resizes the window.
+
+now we create something called a render loop so that the window just doesnt run once upon execution. we also constantly "poll" for user input. in this example if the user clicks "esc" the program ends. 
+
+next we create the two parts of the graphics pipeline that opengl actually wants us to do: the vertex shader and the fragment shader. we use glsl for programming the shaders.
+
+vertex shader: first we specify the version of opengl we're using. then we use layout (location = 0) to specify that positional data will be the "first" index of the gpu memory array. so we take the user input vertices and pass them into a VAO (vertex array object) which then takes each component/attribute seperately(the pos, the color, the texture, the etcetera) and passes them into a buffer object which assigns them to the gpu memory. so the vertex shader accesses the gpu memory and takes the data from the first index(pos data) and sotres them in a vec3 container (x, y and z coordinates). then we take the second "index" and take the data from there and store them in another vec3 container (RGB numbers). so we take these containers as inputs. we output the color as it is.  then for the fragment shader we take in the color data that we outputted in the vertex shader as input and we output the final color of the pixel which is a vec4 container.
+
+now we need to deal with the VBOs and VAOs we talked about in the previous paragraph. we first created 2 integer objects called VBO and VAO. now we create the actual VAO object by calling the glGenVertexArrays() method which takes in the memeory address of the VAO object that we created as a parameter. we call glGenBuffers() and provide the memory address of the VBO to create a vertex buffer object.we first bind the VAO to opengl (again context setting) and then we bind the vertex buffer objects. we use glBufferData() is actually the function that copies the user data in the curretnly bound buffer. remember all we're doing is taking the user data and storing in the memory with the help of VAOs and VBOs and then the vertex shader take them from the memory and put them in little containers and they get passed around in the graphics pipeline.
+
+uniform is a datatype in glsl which is global in nature and therefore could be used at any point in the graphics pipeline. we also came across this piece of code where it all finally clicked for me. 
+
+```
+// position attribute
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+// color attribute
+glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float)));
+glEnableVertexAttribArray(1);
+
+```
+
+the first part is as usual 0 offset, index = 0, etc. but in the second part we specify an offset of 3 * sizeOf(Float) whcih is the offset. so basically the x y z data and the RBG data are stored adjacent to each other. its just that when we use location = 1 we offset by 12 bytes to reach the RBG data. so location = 0 corresponds to position and location = 1 corresponds to RBG. 
+
+finally we came across fragment interpolation where we learnt that in the rasterization step many fragments are created and they are assigned a color value according to their position eventhough we only specified the color value of the 3 vertices. 
