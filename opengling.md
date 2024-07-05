@@ -191,9 +191,23 @@ glEnableVertexAttribArray(0);
 // color attribute
 glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float)));
 glEnableVertexAttribArray(1);
-
 ```
 
 the first part is as usual 0 offset, index = 0, etc. but in the second part we specify an offset of 3 * sizeOf(Float) whcih is the offset. so basically the x y z data and the RBG data are stored adjacent to each other. its just that when we use location = 1 we offset by 12 bytes to reach the RBG data. so location = 0 corresponds to position and location = 1 corresponds to RBG. 
 
 finally we came across fragment interpolation where we learnt that in the rasterization step many fragments are created and they are assigned a color value according to their position eventhough we only specified the color value of the 3 vertices. 
+
+its been like a week since i started opengl and i feel like ive gottn nowhere. but i play elden ring a lot so this feeling isnt all that new.
+
+AND NOW we can tackle textures. i bet yall already know what a texture is, if youve played minecraft youd know. its basically a 2d image wrapped on top of a 2d or 3d object so as to give it detail. we need to tell opengl the correspondence between the vetex position and the position of the texture. the textures have their own coordinate system that starts at (0,0) at the bottom and left and goes upto (1,1) at the top right. so we might specify the texture coordinate corresponding to each vertex like this:
+
+```
+float texCoords[] = {
+    0.0f, 0.0f,  // lower-left corner  
+    1.0f, 0.0f,  // lower-right corner
+    0.5f, 1.0f   // top-center corner
+};
+```
+
+now what if the texture map is smaller than the (0,0) to (1,1) square, well, we jsut repeat it. opengl also comes with texture filtering libraries when the textures all low-res but the object is massive.
+
