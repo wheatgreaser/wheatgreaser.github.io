@@ -228,5 +228,24 @@ now we get to the "fun" part, the shaders. the vertex shader is the same we just
 
 now we come to texture units. they basically allow us to deal with mutliple textures at once. we just use the glActiveTexture() method to set the texture unit that we want to bind. we can use them to even mix two textures together.
 
+vector transformations everybody. we're finally here. the fun part. here's where we actually move things. things are about to reach the stratosphere. i dont know what got into me. i turned into a early 2000s pop punk radio host. i already learnt linear algebra in highschool so this should be easy peasy lemon squeezy. 
 
+first we create a vec object in the context of glm not glsl (the vector contains 4 elements) (that should be apparent but still). next we create a unit matrix of order 4. then we use the glm::translate method that takes in the unit matrix and the vector by which it should be shifted (for example (1,2,3) means x coord will be moved by 1 and y by 2 and z by 3) to give us a new matrix that "encodes" this linear transform, we can just multiply the matrix with a vector to shift it. 
 
+![simple translation](/images/imagesforopengl/26.png)
+
+this fucking header makes everything so easy that i kinda feel guilty. this shit is so easy, for example look at the scaling and rotation (where is the sine and cosine you sick son of a bitch).
+
+![easy scale and rotate](/images/imagesforopengl/27.png)
+
+we basically rotate 90 degrees around the z axis.
+
+to actually use this to transform our gameobject we create a uniform in the shader of the matrix type and we just mulitply it. to set the transformer as the matrix that we've generated we use 
+
+```
+glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+```
+
+transformLoc contains the location of the transformer uniform.
+
+lads i think we reached the point. the point where i know just enough about opengl to scrap together a 2d game. lets try shall we?
