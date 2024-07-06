@@ -224,7 +224,9 @@ we do the texture wrapping (GL_REPEAT) and the texture filtering (GL_LINEAR). no
 
 now we get to the "fun" part, the shaders. the vertex shader is the same we just pass in the same data with just the new addition of the texture data. we give it a layout location = 2 (because its the third "set" of data). we pass the color and texture dataa as it is without any modification. in the fragment shader we create a uniform sampler2D ourTexture variable. sampler2D is a datatype. GLSL comes built in with a texture() method that takes in the ourTexture (of datatype sampler2D) and TexCoord(that we recieved as inout in the pipeline) and does some magic that creates the texture to be added on top of the rectangle. again, this was extremely painful, but i can only imagine how much heavylifting is actually going on behind the scenes. so here's the final texture wrapped object:
 
-![LETSFUCKINGGOO](25.png)
+![LETSFUCKINGGOO](/images/imagesforopengl/25.png)
 
 now we come to texture units. they basically allow us to deal with mutliple textures at once. we just use the glActiveTexture() method to set the texture unit that we want to bind. we can use them to even mix two textures together.
+
+
 
