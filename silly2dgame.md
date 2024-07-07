@@ -12,4 +12,4 @@ man. sdl2 makes things super easy. setting it up in visual studio was a breeze (
 
 we initialize the subsystems (video, audio blah blah) and then we create a window object and pass it as an argument in to the renderer object. then we set the color of the renderer by passing it as an argument in to the SDL_SetRenderDrawColor(); method. then we clear the screen in the beginning (itll just be black) and we just display the renderer. thats it. thats the whole fucking thing. where the fuck is viewport? where the fuck is the frame_buffer method thing we used for updating the window when the user shifts the position. this is absolutely mental.
 
-i decided to call the game Vunderbar Wizards which i think is a pretty sick name.
+i decided to call the game Vunderbar Wizards which i think is a pretty sick name. here's the repo [vunderbarwizards](https://github.com/wheatgreaser/vunderbarwizards).
