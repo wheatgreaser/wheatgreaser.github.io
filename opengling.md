@@ -248,4 +248,5 @@ glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
 
 transformLoc contains the location of the transformer uniform.
 
-lads i think we reached the point. the point where i know just enough about opengl to scrap together a 2d game. lets try shall we?
+## july 7, 2024:
+alright. so we learnt how to create a window, create different 2d shapes and add textures and colors and finally we learnt how to move them around. from here on out the tutorial goes through 3d stuff. so i want to put these things to use, you know. yes. its side project time. 
