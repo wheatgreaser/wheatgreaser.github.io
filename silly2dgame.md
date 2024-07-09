@@ -13,3 +13,10 @@ man. sdl2 makes things super easy. setting it up in visual studio was a breeze (
 we initialize the subsystems (video, audio blah blah) and then we create a window object and pass it as an argument in to the renderer object. then we set the color of the renderer by passing it as an argument in to the SDL_SetRenderDrawColor(); method. then we clear the screen in the beginning (itll just be black) and we just display the renderer. thats it. thats the whole fucking thing. where the fuck is viewport? where the fuck is the frame_buffer method thing we used for updating the window when the user shifts the position. this is absolutely mental.
 
 i decided to call the game Vunderbar Wizards which i think is a pretty sick name. here's the [repo](https://github.com/wheatgreaser/vunderbarwizards).
+
+# july 9, 2024:
+the game loop is the same as the render loop that we did during opengl, it keeps checking for user input and updates the positions, sizes, etc of all the objects and renderes them to the screen. continuously. so in the tutorial they are following "good programming practices" so they're creating a seperate class and seperate ehader files instead of mixing them all in one unholy concoction. also a lot of error handling. so here's the header that we've created that provides a skeleton for what we'll be implementing in the game loop:
+
+![headerclasssperatefile](/images/imagesforrpg/2.png)
+
+yes. also coming from a java perspective the concept of a deconstructor is so alien. 
