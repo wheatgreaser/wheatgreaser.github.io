@@ -19,4 +19,15 @@ the game loop is the same as the render loop that we did during opengl, it keeps
 
 ![headerclasssperatefile](/images/imagesforrpg/2.png)
 
-yes. also coming from a java perspective the concept of a deconstructor is so alien. 
+yes. also coming from a java perspective the concept of a deconstructor is so alien.
+
+# july 10, 2024:
+event handling is like the same difficulty as event handling in unity/c# if you can believe that. i mean look at this silly little goober:
+
+![easyeventhandling](/images/imagesforrpg/3.png)
+
+all that work and we've got ourselves this:
+
+![goofy ahh](/images/imagesforrpg/4.png)
+
+so. i made a window. same as last time BUT this time i made a whole new class and a whole new header file so that the game loop in the main file looks clean af. omg omg omg omg in the next tutorial they're going to show me how to render sprites and images. that's insane. this is actually like super easy (if we forget about the part where there was a conflict between the main file and the main file of sdl and i spent half an hour slowly dying inside). 
