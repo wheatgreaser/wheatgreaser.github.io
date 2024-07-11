@@ -8,7 +8,7 @@ if you make fun of my code ill track you down and eat your little toe.
 ### list of projects I'm currently workin on:
 1. [graphicsing - making a game engine with OpenGL](opengling.md)
 2. [making a silly little 2d game with my custom game engine](silly2dgame.md)
-
+3. [c++ a day keeps the maidens away](learningtoc.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
