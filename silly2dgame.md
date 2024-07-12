@@ -38,4 +38,3 @@ okaaaaaaaaaay. you can just load fucking sprites into SDL2, you dont need to mak
 ![yo yo yo](/images/imagesforrpg/5.gif)
 
 did you edge to that? i feel like the offspring of micheaelangelo and davinci with a little bit of botticelli mixed in (yes i read dan brown how did you know?). but the "art" turned out to be way better than i expected. im quite the artistic genius/prodigy/virtuoso. 
-
