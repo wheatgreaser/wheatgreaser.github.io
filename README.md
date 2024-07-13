@@ -7,6 +7,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on:
 1. [learning react because im a heathen](React.md)
+2. [text recommender because im a lazy fuck - markov chains](markoving.md)
 
 
 ### done?? (this is such a poggies gigachad moment):
