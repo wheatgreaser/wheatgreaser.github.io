@@ -1,0 +1,2 @@
+# text recommendation using markov chains
+i wanna learn cpp alright? so im doing these goffy ass projects to get some footing. ok i lied. i just like text recoomendation, yeah im a fucking nerd, sue me.
