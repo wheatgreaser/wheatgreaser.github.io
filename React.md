@@ -4,6 +4,6 @@ i need to know frontend. i already know how to (sort of) work with apis and data
 ## july 2, 2024:
 i set up a basic react project and added cdn links (yes the fast way shut up) and ran a ReactDOM.render() function. its super simple it takes two arguments the "html" "code" and the location.
 
-## july 8, 2024:
-we're so back. apparently jsx extends the javascript syntax so that html code can work alongside it. so the "html" that we use in ReactDOM.render() is not actual html (shocker).
+## july 20, 2024:
+hmm. we're so back.
 
