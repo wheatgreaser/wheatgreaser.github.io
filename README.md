@@ -7,7 +7,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on
 1. [sentence not sentience - text generation using markov chains](sentencing.md)
-2. [ticky tacky toe - making a tic tac toe game using React](tictactoe.md)
+
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
 2. [scheduleboy - keeps track of your tasks for the day](scheduleboy.md) [scale: pico]
