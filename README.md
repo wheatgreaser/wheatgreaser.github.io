@@ -16,7 +16,7 @@ if you make fun of my code ill track you down and eat your little toe.
 5. [treacherous (not really) forest of websockets](websockets.md) [scale: yocto]
 6. [markov chainin'](markoving.md) [scale: yocto]
 7. [sentence not sentience - text generation using markov chains](sentencing.md) [scale: yocto]
-8. [dynamically managing memory like a boss](memorymanagement.md)
+8. [dynamically managing memory like a boss](memorymanagement.md) [scale: yocto]
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
