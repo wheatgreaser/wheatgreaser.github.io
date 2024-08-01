@@ -6,7 +6,6 @@ if we do some thing like
 ```
 int *ptr = new int; 
 *ptr = 21;
-
 ```
 the "new int" part basically gets an integer worth of memory from the OS and returns the memory address of the memory given to us. we can now store an integer worth of data on it. then we can dereference the pointer and store some value in that memory. SWEEEEET.
 
@@ -15,7 +14,6 @@ we can 'delete' the ptr after w euse it, which doesn't actually doesn't delete a
 ```
 delete ptr;
 ptr = nullptr;
-
 ```
 
 when we delete a pointer it becomes a dangling pointer. a dangling pointer points to a deallocated memory. so DONT FUCKING ACCESS IT. also, apparently, deleting regular pointers (without dynamic memory allocation) leads to some very weird behavior. 
@@ -24,7 +22,6 @@ if the OS doesn't have memory to give to you (from the heap that is) it will thr
 
 ```
 int* value = new (std::nothrow) int;
-
 ```
 
 to do error handling. this will assign a nullptr to the pointer if there's so no available memory.  
@@ -35,7 +32,6 @@ we can do some fucked up shit to cause a memory leak, where the access to the dy
 int x = 5;
 int* ptr = new int;
 ptr = &x;
-
 ```
 
 
