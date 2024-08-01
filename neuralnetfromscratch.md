@@ -1,0 +1,1 @@
+# AM I INSANEEEEEEEEEEEEE - making a neural net from scratch
