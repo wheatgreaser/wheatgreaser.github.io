@@ -1,0 +1,2 @@
+# HAHA get jebaited nintendo, this is CHIP-8 HAHA SUCK IT YOU ABSO-
+hey. i wanted to build a console emulator. it supposedly teaches you computer hardware. i dont reaaally give a shit about that, i just think its dope as fuck.
