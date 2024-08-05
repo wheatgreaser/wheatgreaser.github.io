@@ -60,7 +60,7 @@ in an actualy neuron we use an activation function to squash the output between 
 tanh squashing function:
 ![tanh squashing function](/images/imagesforneuralnet/4.png)
 
-
+activation functions in the output layer can also help express the output of the network as a probability distribution or a binary classification. 
 
 
 
