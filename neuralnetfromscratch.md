@@ -57,7 +57,6 @@ when we deal with an actual neural network we use weights, not the data itself, 
 
 in an actualy neuron we use an activation function to squash the output between -1 and 1. andrej is using tanh so im using tanh. we need a non linear activation function so that we can draw non linear boundaries between outputs, we introduce many layers in our network for extracting features at different levels. if we use a linear activation function its like having a single layer.
 
-tanh squashing function:
 ![tanh squashing function](/images/imagesforneuralnet/4.png)
 
 activation functions in the output layer can also help express the output of the network as a probability distribution or a binary classification. 
