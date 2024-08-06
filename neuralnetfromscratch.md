@@ -1,6 +1,8 @@
 # making an autograd engine
 so what i want to make is an autograd engine. im following the [messiah](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ), ofc. 
 
+check out the final result [here](https://github.com/wheatgreaser/wheatgrad)
+
 ## 5th Aug, 2024:
 an autograd engine implements backpropogation. you can imagine the loss function as a function that takes in a lot (say, n) of weights as input, and gives "loss" as an output. now we want to tweak the weights such that the loss is minimal (gradient descent). now, we do this weight tweaking using backprop. now, let's look at how each individual node is designed, each middle layer node basically has a set of inputs that is multiplied by a weight (think of weight as the importance of that particular input) then if the sum of all the values is above a certain threshold, this node emits an output. 
 
@@ -61,7 +63,12 @@ in an actualy neuron we use an activation function to squash the output between 
 
 activation functions in the output layer can also help express the output of the network as a probability distribution or a binary classification. 
 
+## 6th Aug, 2024:
+now i need to implement the chain rule programitcally. its, suoper simple, we basically set the gradient (final output with respect to the current variable) as the gradient of the local output (final output with respect to local output) times the the derivative of the local output with respect to x. if we iteratively do this for each node we basically get the gradient of the final output with respect to each individual node. 
 
+we use topological sort to traverse backwards through the expression graph. it works such that the current variable is only going to be in the list if all its children are in the list.
+
+badabing badaboom, autgorad done. LETS FUCKING GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
 
 
 
