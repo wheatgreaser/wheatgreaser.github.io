@@ -251,5 +251,3 @@ transformLoc contains the location of the transformer uniform.
 ## july 7, 2024:
 alright. so we learnt how to create a window, create different 2d shapes and add textures and colors and finally we learnt how to move them around. from here on out the tutorial goes through 3d stuff. so i want to put these things to use, you know. yes. its side project time. 
 
-## Aug 7, 2024:
-we're back. we're so fucking back. technically if we render a window we can call it a game engine (because an empty window could be considered a "game" haha) but come on. i want to make a 3d cube rotate and shit, that'll be sick as fuck. 
