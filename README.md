@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [graphicsing - making a game engine with OpenGL](opengling.md) 
+1. [making boring shit not boring - Questify](questify.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
@@ -22,6 +22,6 @@ if you make fun of my code ill track you down and eat your little toe.
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
 2. [making a silly little 2d game with my custom game engine](silly2dgame.md)
-
+3. [graphicsing - making a game engine with OpenGL](opengling.md) 
 
 
