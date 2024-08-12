@@ -12,3 +12,6 @@ ok it took me way more time than id like to admit to make this:
 ![YOOOOO](/images/imagesforapp/1.png)
 
 but ngl, it looks radical. 
+
+## 12th August, 2024:
+you know what would be a good idea? ill build a todo list app and then build on top of that. that would be a good idea. so lets just scrap the main page for now and make a todo list app and build the questline functionality on top of it. this would also teach me the basics of kotlin and android app development. 
