@@ -20,3 +20,6 @@ you know what would be a good idea? ill build a todo list app and then build on 
 alright. i made the basic todo list app. you can download it [here](https://github.com/wheatgreaser/greatesttodolistappofalltime). its not a trojan. basically we use something called viewmodel to implement the update to the UI. in essence we basically have an mutable list that contains lists with an id, string and a DateTime variable, we append and delete elements from the list, we create UI components according to the items in the list. we just store this shit in the local memory so if i restart the app everything goes poof. so i need to fix that. we can implement the quest functionality by treating each questline as sa series of tasks which are nothing but mini todo lists. 
 
 for the persistent memory we need some form of database, i would prefer postgresql as ive dealt with that before. 
+
+## 16th August, 2024:
+WAIT. THERE'S A BETTER METHOD!!!!!!!! we can use something called a room database to store data. its basically a local database. LETSGOOOOOOOOO. 
