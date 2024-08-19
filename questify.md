@@ -23,3 +23,8 @@ for the persistent memory we need some form of database, i would prefer postgres
 
 ## 16th August, 2024:
 WAIT. THERE'S A BETTER METHOD!!!!!!!! we can use something called a room database to store data. its basically a local database. LETSGOOOOOOOOO. 
+
+## 19th August, 2024:
+the basic rundown of the app is as follows, we have an input box and a button when we click the button (we trigger the event) we send the data in the input box to the ViewModel (which keeps track of the UI) then we send that data to a class called TodoManager which has the list into which the input is pushed. the same thing happens in reverse for the output (we send a request to the viewmodel which in turn sends a request to the TodoManager which returns the value to the ViewModel). Now what we wnat to do is to push the data in the TodoManager into the database (roomdb) so that the memory is persistent, i.e, the todolist items dont get deleted everytime i close the app. roomdb provides a layer of abstraction over the SQLite database. what we want to do is we want to replace the TodoManager with a DAO (data access object) the object basically gets all the entities within the db and also persists the changes made (i.e, items added to the list) to the db. now we can basically do CRUD operations on the database. 
+
+AND IT WORKED. DAMN IT WAS THAT EASY. 
