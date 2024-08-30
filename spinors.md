@@ -19,4 +19,4 @@ now there can be another class of loops like this:
 ![different type of loop](/images/imagesforspinor/2.png)
 
 this undergoes a complete rotation also note that the two boundary points connected by the green "loop" is the same point. this is a whole nother class of loop because it cannot be squished into a point, i.e, its not simply connected. 
-there are only two type of homotopy classes in this type of space, one if there are odd number of border crossings and another if there are even number of em. we call a loop class 1 if it has odd number of border crossings and class 2 if it has even number of them. NOW WE CAN GET ALL DIRTY AND _ALGEBRAICCCC_
+there are only two type of homotopy classes in this type of space, one if there are odd number of border crossings and another if there are even number of em. we call a loop class 1 if it has odd number of border crossings and class 2 if it has even number of them. NOW WE CAN GET ALL DIRTY AND _ALGEBRAICCCC_.
