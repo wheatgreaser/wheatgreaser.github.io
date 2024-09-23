@@ -27,5 +27,6 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### other shit:
 1. [spinors are fucking insane](spinors.md)
+2. [revamp maybe?](revamp.md)
 
 
