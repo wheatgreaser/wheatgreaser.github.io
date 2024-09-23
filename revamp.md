@@ -6,3 +6,7 @@ i also watched a youtube video on bland oversimmplified corporate-y shit. that a
 right now this website is just a bunch of markdown files held together by github page deployment thing. so there's that. that will take quite a bit of effort i think. so maybe?
 
 ok revamp. ill strucute some shit out, but no promises ok?
+
+https://blamensir.neocities.org/
+
+this looks insanely cool. i love medieval shit. ok ok ok ill cook something up. promise.
