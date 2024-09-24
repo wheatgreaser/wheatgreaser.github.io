@@ -10,3 +10,6 @@ ok revamp. ill strucute some shit out, but no promises ok?
 https://blamensir.neocities.org/
 
 this looks insanely cool. i love medieval shit. ok ok ok ill cook something up. promise.
+
+progress so far: 
+![progresssofar][/images/imagesforrevamp/progresssofar.png]
