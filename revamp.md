@@ -12,4 +12,6 @@ https://blamensir.neocities.org/
 this looks insanely cool. i love medieval shit. ok ok ok ill cook something up. promise.
 
 progress so far: 
-![progresssofar][/images/imagesforrevamp/progresssofar.png]
+![progresssofar](/images/imagesforrevamp/progresssofar.png)
+
+i think this is the quality pirsig was talking about. 
