@@ -1,0 +1,18 @@
+# analyzing market ineffiencies and making a gajillion dollars
+
+ok. lets say you have a company that is worth 100 dollars per share right now, and people think the next product you launch (let's say the fabled airpods 3) will make a shitload of money so the value will be 120$ by the next month (when you launch the product). people aren't idiots. they can read the news, so everyone buys the stock while it is at 100 so the price starts to go up. the news is now priced in, i.e, the stock's market price is now 120$ so the stock already took the airpods 3 launch into the account. most things are already priced in. this is why investing in the short term is base idiocy. EVERYTHING IS PRICED IN. this is called the efficient market hypothesis. 
+
+but there's a catch. sometimes, very rarely, very very very rarely, the public cannot forsee the exposure of the company to certain unpredictable events, i.e, they do not predict the risk correctly, mind you, 99.9999% of the time the public does predict the risk correctly, but sometimes, there is an inefficiency in the market. now, looking for these inefficiencies is what suited up assholes in goldman sachs and barclays do. so even then you are at a disadvantage. so why the fuck am i doing this. idk. 
+
+so look, an inefficiency is like a goldmine, let's say the weather forcast is wrong for some region mexico where they do fishing or something, idk, and let's say because of the extreme heat the oil pipes require more maintainence and therefore lose like 3 pennies/gallon, so you use that information to make quite the fair sum. so what im going to be doing is collecting a list of predictions from several different fields from weather to politics (using a bot/web scraper), and then ill try to find ineffiencies using my human brain, and try to use those methods and put THAT in a bot. so this bot will find inefficiencies in the financial market. 
+
+now there is a popular source of forecasts, idk if you've heard of it, its called the news and its apparently quite popular. now the news is huge, like if the news says the weather ini mexico in oct 25 is going to be 100 degrees it is most likely going to be true and most people will take it as fact and use that fact to make the commodity investment, now what i do is look a little bit deeper and make a prediction that NO it is not infact going to be 100 degrees but 105 degrees and boom, cost of oil/gallon will slightly increase and boom my futures contracts are worth a lot more.
+
+DISCLAIMER: bro im not even investing real money into this, im just looking at hypotheticals. if the idiot who's typing this degenrate article doesn't trust his own analysis please don't invest on it. 
+
+# 5th oct, 2024:
+ok. so first we need to find the value of a company/option. i.e what we think the value should be given the data. why? let's say the market things the value of the call option should drop due to a worker's strike or something, they also predict by how much it should drop, i.e, the market price of the option. let's say the call option was originally 50$, now it becomes 20$, (the right to buy the share at a lower price is lower because the stock itself is dropping to a lower price). now you think the strike is overly exagerated and you have access to some information that tells you that strike will be over by this evening, so what price should the option be, obviously some value mroe than 20 but what value. we need to find the value of that option. idk how to do that. 
+
+![alt text](/images/imagesforsentiment/1.png)
+
+apparently this will teach me how to do that, so i'll just skim over the part where they teach you how to ifnd the value. hopefully it involves actual wuantifiable metrics that is computable and not wishy washy bullshit.
