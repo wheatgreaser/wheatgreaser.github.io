@@ -20,3 +20,12 @@ the premise of discounted cash flow is that the money you have right now is wort
 ![alt text](/images/imagesforsentiment/2.png)
 
 to predict the cash flows we need several data points, which i need to make, this is the part of the assessment that affects my analysis. like my idea of the growth rate vs what people think its going to be. okkkkkkk. so there's an excel sheet model that does this shit for us, we just need to plug in our assumptions and data from the company (that we can easily scrape from google finance). now i just need to build the news aggregator. 
+
+# 6th oct, 2024:
+ok so im using the news api to get all the headlines, from like the past 10 days and im going to put in an excel sheet. then i can label it according to the category; like whether its weather predictions or like some news related to some political conflict.
+
+let's say i wanted brain cancer, i can just look at all headlines related to bitcoin from the top articles with like a few lines of code.
+
+![alt text](/images/imagesforsentiment/3.png)
+
+damn this api is like super handy. this could be really useful for other projects in the future. 
