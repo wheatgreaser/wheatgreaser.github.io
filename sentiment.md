@@ -18,3 +18,9 @@ let's say i wanted brain cancer, i can just look at all headlines related to bit
 ![alt text](/images/imagesforsentiment/3.png)
 
 damn this api is like super handy. this could be really useful for other projects in the future. 
+
+doing shit in a excel file is always satisfying. 
+
+![alt text](4.png)
+
+doing automation and shit using excel always is nice. so now we can parse through the data and assign it an influence-score. how do we calculate the influence score? good question. NVDIA is probably not going to be affected by the weather that much, but news related ai, its going to change. so we need to have like an influence metric that is learnable. so i sort of need to build a stock price predictor model thing that can iterate on itself and assign decently accurate values to the influence metric for each news category. 
