@@ -7,7 +7,6 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on:
 1. [making a game so i can buy a maserati](spirits.md)
-2. [making a zillion dollars by finding ineffiencies](sentiment.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]

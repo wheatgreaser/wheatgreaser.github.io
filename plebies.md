@@ -1,0 +1,2 @@
+# making a stock market gimmicky thing to make money off of the plebs
+we all know that you cant make money off of the stock market itself, but we can make money off of the people who invest in the stock market. no im not going to create a stock brokerage app, that market's saturated plus its very hard, no, im going to make an app that has various stock market tools, like calculating the intrinsic value of the stock and other basic stuff like that, basically tools for absolute beginners, maybe as we go on we can build out shit like calculating greeks. 
