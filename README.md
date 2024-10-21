@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [making a game so i can buy a maserati](spirits.md)
+
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
@@ -14,6 +14,7 @@ if you make fun of my code ill track you down and eat your little toe.
 3. [markov chainin'](markoving.md) [scale: yocto]
 4. [sentence not sentience - text generation using markov chains](sentencing.md) [scale: yocto]
 5. [making an autograd engine](neuralnetfromscratch.md)[scale: pico]
+6. [making a game so i can buy a maserati](spirits.md)[scale: micro]
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
