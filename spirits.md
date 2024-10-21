@@ -32,3 +32,8 @@ interesting interesting interesting. i just finished the first part of my game. 
 that seems like a fair price. i dot feel like i put in a lot of effort, but on the other hand it is a fucking visual novel with _some_ combat mechanics and an idiotic implementation of turn based combat thrown in the middle. what else? oh yeah i installed emacs. am i going to switch to it? maybe. it seems like a lot of fun. i love the customizability of it. but i also like neovim you know? neovim is like a knife emacs is like a swiss knife. but im going to switch to one, emacs or neovim. 
 the game should be out by day after tomorrow. or the day after that.
 just be on the lookout, aight?
+
+## 21st october, 2024:
+ITS OUTTTTTTTTT. LETS FUCKING GOOOO
+you can play it on [here](https://wheatgreaser.itch.io/spirits-and-such-consultancy)
+i think i fixed all the bugs. i think. i also added music. so its out. i made a fucking visual novel. god i feel like a dork. but its out. pls buy. 
