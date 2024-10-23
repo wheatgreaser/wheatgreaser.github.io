@@ -1,8 +1,0 @@
-# slopmaxxing to put slop on the table
-slop. we all love it. don't deny it you fucker, i know you looooove spending ungodly amounts of time in shorts and reels and shit. DONT FUCKING DENY IT YOU MOTHERFUCKER. ok. now that we've all agreed that we love slop, lets try to think like a pioneering tech ceo. lets try to make money off of it by just automating the process of uploading. now this shit is not revolutionary, infact youtube has spent so much time perfecting its filter so this exact shit doesn't happen; low quality content flooding their precious platform. well our content isn't low quality, its _slop_. its fucking slop goddammit and we're bloody proud of it. 
-
-now there's this subreddit called r/discordvideos, which itself is a sort of aggregation point of all the shit from reels and well, would you know it, discord. its decent, and the videos posted there have a good amount of "meme" quality ( i mean the anthropological meaning, "memes are the of the soul")
-
-the mfs at reddit started charging money for their api from last year (2023) now that is fucking idiotic. how the fuck am i supposed to harvest data? well there is that one way. would it work? i mean web scraping. but the meme aggregation part of the process is actually pretty easy and need not be automated, the editing and the posting part (especially the posting part) is in dire need of automation. 
-
-the posting part seems easier so lets do that first. 
