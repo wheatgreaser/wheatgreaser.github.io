@@ -16,4 +16,5 @@ list of cool ideas:
 yeah thats about it. so for now ill just create a sweet little authentication and authorization system which will allow users to sign up and sign in. now hosting is kindof a problem as broke college freshie i cant afford aws and shit, i could do localhosting, that should be fun. ill cross that bridge when we come to that, but for now, only basic sign up and sign in functionality, ofc im going to be using jwt tokens, cuz, you know, ive used em before.
 
 call me steve jobs because im decent at design. 
+
 ![how do you like them apples](/images/imagesforvpets/1.png)
