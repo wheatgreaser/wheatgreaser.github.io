@@ -20,3 +20,6 @@ the reason i want to start with authentication is because even if i end up balin
 call me steve jobs because im decent at design. 
 
 ![how do you like them apples](/images/imagesforvpets/1.png)
+
+## nov 15, 2024:
+ok the authentication system is done, now i have to work on the authorization system which is much much much harder. also there is that detestable user page creation bullshit that i have to work on (when you sign up, a profile page has to be generated for you). 
