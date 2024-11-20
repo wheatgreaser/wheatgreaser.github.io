@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. making my own programming language (masochist edition)[compily.md]
+1. [making my own programming language (masochist edition)](compily.md)
 
 
 ### done?? (this is such a poggies gigachad moment):
