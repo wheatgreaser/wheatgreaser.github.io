@@ -16,6 +16,7 @@ if you make fun of my code ill track you down and eat your little toe.
 4. [sentence not sentience - text generation using markov chains](sentencing.md) [scale: yocto]
 5. [making an autograd engine](neuralnetfromscratch.md)[scale: pico]
 6. [making a game so i can buy a maserati](spirits.md)[scale: micro]
+7. [aping - its api-ing time (making my own api because autism)](apiing.md) [scale: nano] 
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
@@ -28,8 +29,7 @@ if you make fun of my code ill track you down and eat your little toe.
 1. [spinors are fucking insane](spinors.md)
 
 ### tech shit:
-1. [i can SSH into your mom](ssh.md) [scale: yocto]
-2. [treacherous (not really) forest of websockets](websockets.md) [scale: yocto]
-3. [aping - its api-ing time(im going apeshit)](apiing.md) [scale: nano] 
-4. [dynamically managing memory like a boss](memorymanagement.md) [scale: yocto]
+1. [i can SSH into your mom](ssh.md) 
+2. [treacherous (not really) forest of websockets](websockets.md) 
+3. [dynamically managing memory like a boss](memorymanagement.md) 
 
