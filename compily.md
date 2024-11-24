@@ -18,3 +18,20 @@ tree walk interpreter:
 so basically we traverse the syntax tree one branch and leaf at a time evaluatinig each node as we go, this is not commonly used as it is slow. we're going to be making that. 
 
 ok compilers vs interpreters bring it on, compilers just convert the source code into some machine executable format (bytecode) interpreters run the code one line at a time (by traversing the syntax tree).
+
+### 24 nov, 2024:
+sometimes i hate myself. this is one of those times, ive just begun to realize the magnitude of the project ive taken up. the process of scanning/lexing where we comb through the code line by line to pick out the individual keywords is itself a whole 60 page chapter in this book. on a scale of 1 - 10 im about 7 in terms of "cooked". so there is that, i downloaded the repo, blew off the dust (there wasnt any its digital dumbass its a joke) and then i ran it. the language itself is a "scripting language" which means it directly runs from the source. 
+
+we could categorize tokens just by comparing raw strings (which is the form of implementation i would have thought up) but instead its better to created an enum that has the different type of strings so that we can also classify it into the type of lexeme to which it belongs. 
+
+ok what the fuck is a lexeme, i hear you think. well
+
+```
+
+var shit = "fuck";
+
+```
+
+now var, shit, =, "fuck", ; are all lexemes. when we do error handling its good to show the location fo the error too ("missing ; in line 4"). in case youre like me and you're wondering what the fuck is the idfference between a token and a lexeme, well, a lexeme is the concrete use of a token. the job of the lexer/scanner is to classify the lexeme into tokens (if it encounters the lexeme "if" it will recognie if as a keyword token of the enum(type) if). 
+
+ok so here's my plan what im going to do is follow the books, then make my own implementation of each chapter in c++, because ill learn c++ while at the same time learning the concepts more clearly, apparently this is a very popular approach in learning this book. 
