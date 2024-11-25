@@ -3,7 +3,7 @@ this is going to be sooooo much fun.
 
 i dont even think i need to talk about which source im going to follow. it should be obvious. it starts with crafting and ends with interpreters. yes its crafting interpreters. the book be booking. 
 
-### 21 nov, 2024:
+## 21 nov, 2024:
 ok so this guy portrays the process of a program being executed to climbing and descending a mountain. its actually a good analogy, so basically you take the user's code and pick out the tokens this is called lexing/scanning/lexical analysis(if you're a dickhead). next we take that and create a syntax tree (abstract syntax tree, parse tree, yada yada), this is where we establish the relationship between the tokens, for instance the var somevar = (a + b)/2 will be broken down into its tokens for example var will be taken out as a keyword then var will be taken in the parse tree as a system.var or something like that (basically telling the system that its a keyword) and the whole structure will be built out in the form of like a flow chart, this is called parsing. most of the programming languages have these two processes implemented in the same way. now we do static analysis, which is were we assign scope (scope resolution, binding) then we also do a type check here (if this is a statically typed language). now we reached the summit, so far what we've done is on the "front end". 
 
 if you're a naive fool you will be thinking there is a backend. clearly you dont what curs these langauge wizards are. these swines have assigned a new term called "middle end", which is the most idiotic term to ever be conceived, but the concept is simple, we do not want to express our code in a "language" that can only be understood by a certain cpu architecture, we want it to be universal, so we express it in terms of some intermediate representation (IR).
@@ -19,17 +19,15 @@ so basically we traverse the syntax tree one branch and leaf at a time evaluatin
 
 ok compilers vs interpreters bring it on, compilers just convert the source code into some machine executable format (bytecode) interpreters run the code one line at a time (by traversing the syntax tree).
 
-### 24 nov, 2024:
+## 24 nov, 2024:
 sometimes i hate myself. this is one of those times, ive just begun to realize the magnitude of the project ive taken up. the process of scanning/lexing where we comb through the code line by line to pick out the individual keywords is itself a whole 60 page chapter in this book. on a scale of 1 - 10 im about 7 in terms of "cooked". so there is that, i downloaded the repo, blew off the dust (there wasnt any its digital dumbass its a joke) and then i ran it. the language itself is a "scripting language" which means it directly runs from the source. 
 
 we could categorize tokens just by comparing raw strings (which is the form of implementation i would have thought up) but instead its better to created an enum that has the different type of strings so that we can also classify it into the type of lexeme to which it belongs. 
 
-ok what the fuck is a lexeme, i hear you think. well
+ok what the fuck is a lexeme, i hear you think. well, let's say there's an expression like:
 
 ```
-
 var shit = "fuck";
-
 ```
 
 now var, shit, =, "fuck", ; are all lexemes. when we do error handling its good to show the location fo the error too ("missing ; in line 4"). in case youre like me and you're wondering what the fuck is the idfference between a token and a lexeme, well, a lexeme is the concrete use of a token. the job of the lexer/scanner is to classify the lexeme into tokens (if it encounters the lexeme "if" it will recognie if as a keyword token of the enum(type) if). 
