@@ -33,3 +33,14 @@ var shit = "fuck";
 now var, shit, =, "fuck", ; are all lexemes. when we do error handling its good to show the location fo the error too ("missing ; in line 4"). in case youre like me and you're wondering what the fuck is the idfference between a token and a lexeme, well, a lexeme is the concrete use of a token. the job of the lexer/scanner is to classify the lexeme into tokens (if it encounters the lexeme "if" it will recognie if as a keyword token of the enum(type) if). 
 
 ok so here's my plan what im going to do is follow the books, then make my own implementation of each chapter in c++, because ill learn c++ while at the same time learning the concepts more clearly, apparently this is a very popular approach in learning this book. 
+
+## 26 nov, 2024:
+ok in c++ terms what we want is to take an input (a string input) and return a vector of tokens. this is super exciting because here is where we do all the keyword shit, so instead of let or var or something (incase we wont to be sinners and make our language dynamically typed) we can have "set" or something silly. 
+
+ok so we can create struct which has the TokenType value (an enum is basicaly like a programmer-defined type for thsoe of you new to c++, so instead of specifying the "type" by using a string or something we can create a type on our own) and a string that contains the user defined value for example if the user writes
+```
+set isGooningTime = true
+```
+then set will be of the TokenType Set, isGooningTime of the type variable and will have the string as "isGooningTime" and "=" will have the type Equals and then "true" will have the TokenType as boolean and the string will be "true".
+
+the rest of the program is just boring old splitting the string into several and seperate words and classify them into seopoerate types typa thing. 
