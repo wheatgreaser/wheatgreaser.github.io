@@ -45,5 +45,3 @@ then set will be of the TokenType Set, isGooningTime of the type variable and wi
 
 the rest of the program is just boring old splitting the string into several and seperate words and classify them into seperate types typa thing. 
 
-## 27 nov, 2024:
-ok turns out, im shit at c++, i struggle with simplle syntax shit, so im going to brush up on my c++ skills and come back. its leetcodin' time. 
