@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [making my own programming language (masochist edition)](compily.md)
+1. [creating coked up virtual pets to cure incels](virtualpets.md)
 
 
 ### done?? (this is such a poggies gigachad moment):
@@ -23,7 +23,6 @@ if you make fun of my code ill track you down and eat your little toe.
 2. [making a silly little 2d game with my custom game engine](silly2dgame.md)
 3. [graphicsing - making a game engine with OpenGL](opengling.md) 
 4. [making boring shit not boring - Questify](questify.md)
-5. [creating coked up virtual pets to cure incels](virtualpets.md)
 
 ### math shit:
 1. [spinors are fucking insane](spinors.md)
