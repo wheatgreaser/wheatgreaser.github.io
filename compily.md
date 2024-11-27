@@ -44,3 +44,6 @@ set isGooningTime = true
 then set will be of the TokenType Set, isGooningTime of the type variable and will have the string as "isGooningTime" and "=" will have the type Equals and then "true" will have the TokenType as boolean and the string will be "true".
 
 the rest of the program is just boring old splitting the string into several and seperate words and classify them into seperate types typa thing. 
+
+## 27 nov, 2024:
+ok turns out, im shit at c++, i struggle with simplle syntax shit, so im going to brush up on my c++ skills and come back. its leetcodin' time. 
