@@ -45,3 +45,10 @@ then set will be of the TokenType Set, isGooningTime of the type variable and wi
 
 the rest of the program is just boring old splitting the string into several and seperate words and classify them into seperate types typa thing. 
 
+## dec 1, 2024:
+ok ok ok. its done. the scanner is done. this is such a W moment. 
+
+![AHHHHHHHHH](/images/imagesforcompiler/1.png)
+
+im literally shitting tears of joy right now.
+the reason it took so long is because i wanted to build the whole thing myself by scratch, yeah. 
