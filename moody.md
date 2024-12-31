@@ -9,3 +9,4 @@ main page          |  task creation page        | page with all the tasks
 ![alt text](/images/imagesformoody/1.jpg)| ![alt text](/images/imagesformoody/2.jpg)| ![alt text](/images/imagesformoody/3.jpg)
 
 and ofc you can check out the final result on my github. 
+happy new year yall.
