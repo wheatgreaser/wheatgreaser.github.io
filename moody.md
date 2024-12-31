@@ -6,7 +6,9 @@ so the projects this year have been quite lackluster i know, but i promise big b
 so a mood based todo list app. why did i do that? i wanted to learn react native thats about it. it taught me about hooks like useEffect, states, lifecycle of components, AsyncStrorage, context, callbacks and everything, i just rawdogged the project you know, didnt follow no tutorial or anything. neat huh? here's the final result (i didnt log the project because i just wanted to be done with it, like i focused on making the project first). so here's the final result:
 
 
-<img src = "/images/imagesformoody/1.jpg" width=50% height=30%>
+<img src = "/images/imagesformoody/1.jpg" width=50% height=20%>
+<img src = "/images/imagesformoody/2.jpg" width=50% height=20%>
+<img src = "/images/imagesformoody/3.jpg" width=50% height=20%>
 
-and ofc you can check out the final result on my github. 
+and ofc you can check out the final result on my github.  
 happy new year yall.
