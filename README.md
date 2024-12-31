@@ -18,7 +18,7 @@ if you make fun of my code ill track you down and eat your little toe.
 5. [making an autograd engine](neuralnetfromscratch.md)[scale: pico]
 6. [making a game so i can buy a maserati](spirits.md)[scale: micro]
 7. [aping - its api-ing time (making my own api because autism)](apiing.md) [scale: nano] 
-8. [mood based todo list app](moody.md)[scale: nano]
+8. [mood based todo list app](moody.md) [scale: nano]
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
