@@ -15,13 +15,20 @@ list of cool ideas:
 
 yeah thats about it. so for now ill just create a sweet little authentication and authorization system which will allow users to sign up and sign in. now hosting is kindof a problem as broke college freshie i cant afford aws and shit, i could do localhosting, that should be fun. ill cross that bridge when we come to that, but for now, only basic sign up and sign in functionality, ofc im going to be using jwt tokens, cuz, you know, ive used em before.
 
+the reason i want to start with authentication is because even if i end up baling on this project ill be left with a useful set of "tools" that i can use for other projects. 
+
 call me steve jobs because im decent at design. 
 
 ![how do you like them apples](/images/imagesforvpets/1.png)
 
+<<<<<<< HEAD
 # nov 15, 2024:
 authentication is hard as fuck. why is it like this. i decided to go with firebase instead of building out my own api because of security concerns. ok i lied, i dont want to write my own api. ok i lied again, there is an error with pgadmin and it wont work. happy?
 
 # nov 16, 2024:
 ok i somehow managed to do user authentication, now i need to set up authorization, i.e, a user specific profile and such. i just had an amazing idea for my app. a real lightbulb moment. i kinda wanna pivot, its going to be a puzzle app. WHOAA WHOAA WHOA i hear you scream, what happened to the virtual pet aspect, that was cool and fun and smart. i hear you. really. BUUUUUUUUT, i just think a puzzle app will be more fun you know. ok what kind of puzzles i hear you ask, well cs programming puzzles mostly, but math and phtsics puzzles too. you can view a list of puzzles, and a few of them to your "inventory" (here's where the user system comes in) and peruse them according to your liking.
 
+=======
+## nov 15, 2024:
+ok the authentication system is done, now i have to work on the authorization system which is much much much harder. also there is that detestable user page creation bullshit that i have to work on (when you sign up, a profile page has to be generated for you). 
+>>>>>>> e221d88efd9c6b78c7761144974db33386496664
