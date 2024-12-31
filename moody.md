@@ -7,8 +7,7 @@ so a mood based todo list app. why did i do that? i wanted to learn react native
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | ![alt text](/images/imagesformoody/1.jpg)|  ![alt text](/images/imagesformoody/2.jpg) | ![alt text](/images/imagesformoody/3.jpg) |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+
 
 
 and ofc you can check out the final result on my github. 
