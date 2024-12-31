@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [creating coked up virtual pets to cure incels](virtualpets.md)
+1. [puzzle app for fun and profit (mostly fun)](virtualpets.md)
 
 
 ### done?? (this is such a poggies gigachad moment):

@@ -1,4 +1,4 @@
-# tamagotchi but on crack
+# ~~ making a  ~~ virtual pet app ~~ a puzzle app
 virtual pets are fun. you got to feed them or they die. this is a cool idea for an app. why? because fuck you its cool shutup. 
 
 ## oct 23, 2024:
@@ -18,3 +18,10 @@ yeah thats about it. so for now ill just create a sweet little authentication an
 call me steve jobs because im decent at design. 
 
 ![how do you like them apples](/images/imagesforvpets/1.png)
+
+# nov 15, 2024:
+authentication is hard as fuck. why is it like this. i decided to go with firebase instead of building out my own api because of security concerns. ok i lied, i dont want to write my own api. ok i lied again, there is an error with pgadmin and it wont work. happy?
+
+# nov 16, 2024:
+ok i somehow managed to do user authentication, now i need to set up authorization, i.e, a user specific profile and such. i just had an amazing idea for my app. a real lightbulb moment. i kinda wanna pivot, its going to be a puzzle app. WHOAA WHOAA WHOA i hear you scream, what happened to the virtual pet aspect, that was cool and fun and smart. i hear you. really. BUUUUUUUUT, i just think a puzzle app will be more fun you know. ok what kind of puzzles i hear you ask, well cs programming puzzles mostly, but math and phtsics puzzles too. you can view a list of puzzles, and a few of them to your "inventory" (here's where the user system comes in) and peruse them according to your liking.
+
