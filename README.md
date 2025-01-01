@@ -21,10 +21,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
-2. [making a silly little 2d game with my custom game engine](silly2dgame.md)
-3. [graphicsing - making a game engine with OpenGL](opengling.md) 
-4. [making boring shit not boring - Questify](questify.md)
-5. [creating coked up virtual pets to cure incels](virtualpets.md)
+2. [graphicsing - making a game engine with OpenGL](opengling.md) 
 
 ### math shit:
 1. [spinors are fucking insane](spinors.md)
