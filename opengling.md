@@ -76,8 +76,8 @@ modern opengl is such a dick. we need to define our own vertex AND fragment shad
 
 the 3d coordinate input that we give opengl is in a range b/w -1.0 and 1.0 we call this the normalized device coordinates range, any coordinates that lie out of these coordinates get clipped. the vertex data is just this:
 
-![vertex data](/images/imagesforopengl/11.png)
-
+![vertex data](/images/imagesforopengl/11.png) 
+ 
 ## july 2, 2024:
 to send the vertex data to vertex shader we first need to allocate some memory for it in the GPU. we manage the gpu memory by using vector buffer objects, these basically process the data of the vertices all at once instead of like one at a time. 
 
