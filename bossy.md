@@ -12,4 +12,4 @@ we basically slowdown the engine object. its that simple. i did run into a stupi
 ## camerashit  
 basically i want the scrren to vibrate when i hit the enemy, turns out there was conveninetly placed godot function for this, we just randomly generate vectors within the given range (according to "intensity") and provide a set duration. thats about it.
 
-so i did actually manage to complete the project which is a solid W by all standards. you can check the game out here: https://wheatgreaser.itch.io/flail-v-slime
+so i did actually manage to complete the project which is a solid W by all standards. you can check the game out [here](https://wheatgreaser.itch.io/flail-v-slime)
