@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [chill lil webserver in C](webbyserver.md)
+1. [im supabased](supabased.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
