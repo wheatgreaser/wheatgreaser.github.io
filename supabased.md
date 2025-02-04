@@ -1,3 +1,6 @@
 # supabased guy
 
-im a based guy i think. im going to roll my authentication, i know, i know. im a based lil fella. i wanna use supabase because of postgres, no other reason. 
+wouldnt it be great if there was a system where you can be authorized as a 'guy' and the 'guy' is the only person who can see his own stuff. how sick would that be.
+
+## 4th feb, 2024:
+so here's the deal, i wanna do authentication and authorization. on supabase. thats like the whole thing. 
