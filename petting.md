@@ -13,3 +13,6 @@ ok so i made a few changes and added a few features. you can now feed the schizo
 ![image](/images/imagesforvpets/3.png)
 
 HOW DOES IT LOOK HOW DOES IT LOOK HOW DOES IT LOOK?? LOOKS GOOD RIGHT?????
+
+## 13th feb, 2024:
+ok i made a new shop feature and deployed it?? you can check it out [here](https://virtualpets-zeta.vercel.app/)
