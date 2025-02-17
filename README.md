@@ -32,4 +32,4 @@ if you make fun of my code ill track you down and eat your little toe.
 1. [i can SSH into your mom](ssh.md) 
 2. [treacherous (not really) forest of websockets](websockets.md) 
 3. [dynamically managing memory like a boss](memorymanagement.md) 
-
+4. [robert operating system (its robertiing time - ROSSSSSSs)](robert.md)
