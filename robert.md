@@ -17,3 +17,6 @@ a package is used to group together a set of related nodes , their config files 
 each ros project goes into its own workspace where we keep all of our packages in. when we use colcon to build our workspace it takes all the source files from a src directory, build them into a build directory and install them in to an install directory (fun i know, people always love it when i talk about building a workspace in the robert(its robert shutup) operating system).
 
 QoS allows us to set certain rules on the messages sent between publishers and subscribers. 
+
+### ok so wtf is a gazebo?
+ok good question, its sort of like a 3d sim software, no scratch that it is a 3d sim software, basically i can test out all the features (say teleop) on gazebo before i send it out to the bot. 
