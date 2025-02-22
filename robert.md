@@ -19,4 +19,4 @@ each ros project goes into its own workspace where we keep all of our packages i
 QoS allows us to set certain rules on the messages sent between publishers and subscribers. 
 
 ### ok so wtf is a gazebo?
-ok good question, its sort of like a 3d sim software, no scratch that it is a 3d sim software, basically i can test out all the features (say teleop) on gazebo before i send it out to the bot. 
+ok good question, its sort of like a 3d sim software, no scratch that it is a 3d sim software, basically i can test out all the features (say teleop) on gazebo before i send it out to the bot. so yeah there's that.
