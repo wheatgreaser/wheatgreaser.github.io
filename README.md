@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [robert operating system (its robertiing time - ROSSSSSSs)](robert.md)
+1. [making a dragon boss fight so good that it pickles your sphincter](dragonboss.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
@@ -24,6 +24,8 @@ if you make fun of my code ill track you down and eat your little toe.
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
 2. [graphicsing - making a game engine with OpenGL](opengling.md) 
 3. [making my own programming language (LLVM babyyyy)](compily.md)
+4. [robert operating system (its robertiing time - ROSSSSSSs)](robert.md)
+
 
 ### math shit:
 1. [spinors are fucking insane](spinors.md)
