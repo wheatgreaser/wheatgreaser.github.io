@@ -7,6 +7,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 ### list of projects I'm currently workin on:
 1. [making a dragon boss fight so good that it pickles your sphincter](dragonboss.md)
+2. [3d on my web?! blasphemy - p5.js + webgl](p5js.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
