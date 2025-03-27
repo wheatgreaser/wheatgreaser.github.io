@@ -251,3 +251,5 @@ transformLoc contains the location of the transformer uniform.
 ## july 7, 2024:
 alright. so we learnt how to create a window, create different 2d shapes and add textures and colors and finally we learnt how to move them around. from here on out the tutorial goes through 3d stuff. so i want to put these things to use, you know. yes. its side project time. 
 
+## march 26, 2025:
+ok. I know. I know. ok so now that im kinda familiar with opengl i think we should focus on the "game engine" part of the project, because so far we've only dealt with the graphics stuff. 
