@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [TETRISSSSSSSSSSSSSSSSSSS!!!!!!!!!! (using cpp and raylib)](breakout.md)
+1. [spam, spam! - naive bayes and haskell](haskelling.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
@@ -19,6 +19,7 @@ if you make fun of my code ill track you down and eat your little toe.
 8. [mood based todo list app](moody.md) [scale: nano]
 9. [making a bossfight (gamejammery)](bossy.md) [scale: nano]
 10. [virtual pets game (its petting time )](petting.md) [scale: micro]
+11. [TETRISSSSSSSSSSSSSSSSSSS!!!!!!!!!! (using cpp and raylib)](breakout.md) [scale: pico]
 
 ### backburner(my lazy ass put these off for the future): 
 1. [learning deep learning - i'm learning deep learning](learningdeeplearningthechronicle.md)
