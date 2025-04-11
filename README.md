@@ -6,7 +6,7 @@ if you make fun of my code ill track you down and eat your little toe.
 
 
 ### list of projects I'm currently workin on:
-1. [(dys)functional programming - haskell baby](haskelling.md)
+1. [making a silly little card game](cardgame.md)
 
 ### done?? (this is such a poggies gigachad moment):
 1. [is it dancy???? - checking the danceability of a song using ml](dancychecky.md) [scale: yocto]
@@ -26,6 +26,7 @@ if you make fun of my code ill track you down and eat your little toe.
 2. [making my own programming language (LLVM babyyyy)](compily.md)
 3. [robert operating system (its robertiing time - ROSSSSSSs)](robert.md)
 4. [graphicsing - making a game engine with OpenGL](opengling.md) 
+5. [(dys)functional programming - haskell baby](haskelling.md)
 
 
 ### math shit:
